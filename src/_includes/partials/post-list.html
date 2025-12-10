@@ -1,0 +1,13 @@
+{% for item in postListItems %}
+<article class="item-post">
+
+<div class="alt-bordered">
+<small class="item-meta">{{ item.data.postDate | dateFilter('d MMM yyyy') }}</small>
+<small class="item-meta">{{ item.data.postAuthor }}</small>
+</div><!-- alt-bordered -->
+
+<h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+<p>{{ item.data.postSummary }}</p>
+
+</article>
+{% endfor %}

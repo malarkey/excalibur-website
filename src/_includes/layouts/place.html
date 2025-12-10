@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+
+{% include "partials/header.html" %}
+
+<div class="layout" data-layout="clyde">
+
+<div>
+<h1 data-size="3xl">{{ title }}</h1>
+
+<small class="alt-meta">
+{% if type %}{{ type }}{% endif %}
+{% if type and (town or category or coordinates) %} • {% endif %}
+{% if town %}{{ town }}{% endif %}
+{% if town and (category or coordinates) %} • {% endif %}
+{% if category %}{{ category }}{% endif %}
+{% if category and coordinates %} • {% endif %}
+{% if coordinates %}
+<a href="https://www.google.com/maps/search/?api=1&query={{ coordinates | urlencode }}" target="_blank" rel="noopener">Google Maps</a>{% endif %}
+</small>
+
+<hr>
+
+{{ content | safe }}
+
+{% if image %}
+<figure>
+<img src="{{ image }}" alt="{{ title }}" loading="eager">
+{% if summary %}<figcaption>{{ summary }}</figcaption>{% endif %}
+</figure>
+{% endif %}
+
+{% if tags %}
+{% for tag in tags %}
+<a href="/places/tag/{{ tag | slug }}/" class="alt-tag">{{ tag }}</a>
+{% endfor %}
+{% endif %}
+
+</div><!-- one -->
+
+<div>
+<p><a href="/mythic-wales">Back to Mythic Wales</a></p>
+<figure>
+<a href="/mythic-wales"><img src="/images/map-regions-small.svg" alt="Mythic Wales map"></a>
+</figure>
+
+{% if category %}
+<h3>More in {{ category }}</h3>
+<ul class="alt-" data-variant="bordered-l">
+{% set sameCategory = collections.places | filterPlacesByCategory(category) %}
+{% set limitedSameCategory = sameCategory | limit(6) %}
+{% for related in limitedSameCategory %}
+{% if related.url != page.url and loop.index <= 5 %}
+<li><a href="{{ related.url }}">{{ related.data.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<p><a href="/places/category/{{ category | slug }}/">More in {{ category }}</a></p>
+{% endif %}
+
+<hr>
+
+{% if town %}
+<h3>More near {{ town }}</h3>
+<ul class="alt-" data-variant="bordered-l">
+{% set sameTown = collections.places | filterPlacesByTown(town) %}
+{% set limitedSameTown = sameTown | limit(6) %}
+{% for related in limitedSameTown %}
+{% if related.url != page.url and loop.index <= 5 %}
+<li><a href="{{ related.url }}">{{ related.data.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<p><a href="/places/town/{{ town | slug }}/">More in {{ town }}</a></p>
+{% endif %}
+
+</div><!-- two -->
+
+</div><!-- layout -->
+
+
+
+
+<hr data-function="spacer">
+
+<h3 data-size="s">Advertisements</h3>
+
+<div data-layout="flex" data-content="adverts">
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-1.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-2.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-3.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-4.webp" alt=""></a></div>
+</div><!-- layout -->
+
+<hr data-function="spacer">
+
+<div class="layout" data-layout="klunk">
+
+<div>
+
+{% set placeStories = collections.stories | storiesByPlace(page.fileSlug) %}
+{% if placeStories.length > 0 %}
+
+<h2 data-size="3xl">Your stories</h2>
+
+{% for story in placeStories | limit(6) %}
+<article class="item-story">
+<div class="alt-bordered">
+{% if story.data.author %}<small class="item-meta">By {{ story.data.author }}</small>{% endif %}
+{% if story.data.date %}<small class="item-meta">{{ story.data.date | dateFilter }}</small>{% endif %}
+</div><!-- alt-bordered -->
+
+<h3><a href="{{ story.url }}">{{ story.data.title }}</a></h3>
+{% if story.data.summary %}<p>{{ story.data.summary }}</p>{% endif %}
+</article>
+{% endfor %}
+
+{% if placeStories.length > 6 %}
+<p><a href="/stories/?place={{ page.fileSlug }}">Read all {{ placeStories.length }} stories</a></p>
+{% endif %}
+
+{% else %}
+<h2>Be the first to share a story</h2>
+{% endif %}
+</div><!-- one -->
+
+<div>
+<h2>Share your experience</h2>
+
+<p>Have you visited {{ title }}? Share your experience with our community.</p>
+
+<form action="/api/submit-story" method="POST" enctype="multipart/form-data" class="story-form">
+<input type="hidden" name="place" value="{{ page.fileSlug }}">
+<input type="hidden" name="placeTitle" value="{{ title }}">
+
+<div data-layout="flex">
+
+<div>
+<label for="author">Name</label>
+<input type="text" name="author" id="author">
+</div><!-- one -->
+
+<div>
+<label for="authorLocation">Your location</label>
+<input type="text" name="authorLocation" id="authorLocation">
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<div>
+<label for="email">Email <span>(won&#8217;t be published)</span></label>
+<input type="email" id="email" name="email">
+</div>
+
+<hr>
+
+<div>
+<label for="visitDate">Visit date</label>
+<input type="date" id="visitDate" name="visitDate">
+</div>
+
+<hr>
+
+<div>
+<label for="title">Story title</label>
+<input type="text" id="title" name="title" required>
+</div>
+
+<div>
+<label for="summary">Short summary <span>(Up to 30 words)</span></label>
+<textarea id="summary" name="summary" required></textarea>
+</div>
+
+<div>
+<label for="content">Your story</label>
+<textarea id="content" name="content" required></textarea>
+</div>
+
+<hr>
+
+<div data-layout="flex">
+
+<div>
+<label for="images">Upload photos (optional)</label>
+<small>You can upload multiple photos (max 5MB each)</small>
+</div><!-- one -->
+
+<div>
+<input type="file" id="images" name="images" multiple accept="image/*">
+<label for="images" class="file-upload-label" data-visibility="hidden">Choose files</label>
+<p>No files chosen</p>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<hr>
+
+<div data-layout="flex">
+
+<div>
+<label for="tags">Tags <span>(comma-separated)</span></label>
+<small>Help others find similar stories</small>
+</div><!-- one -->
+
+<div>
+<input type="text" id="tags" name="tags">
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<hr>
+
+<div class="alt-label">
+<div class="alt-checkbox">
+<input type="checkbox" name="consent" id="consent" checked>
+<label for="consent"></label>
+</div><!-- alt-checkbox -->
+<p>I agree to my story being published</p>
+</div><!-- alt-label -->
+
+
+
+<div data-layout="flex">
+<div>
+<small>Stories are moderated before publication. You&#8217;ll receive an email when your story is live.</small>
+</div><!-- one -->
+
+<div>
+<button type="submit" class="btn">Share your story</button>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+</form>
+
+</div><!-- two -->
+
+</div><!-- layout -->
+
+
+
+
+
+
+
+
+
+{% include "partials/footer.html" %}
+</body>
+</html>

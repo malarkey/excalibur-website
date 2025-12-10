@@ -1,0 +1,111 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+
+  - name: "team"
+    label: "Team Members"
+    folder: "src/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+    - {label: "Name", name: "name", widget: "string"}
+    - {label: "Order", name: "order", widget: "number", value_type: "int"}
+    - {label: "Role", name: "role", widget: "string"}
+    - {label: "Image", name: "image", widget: "image", required: false}
+    - {label: "Background Image", name: "imageBg", widget: "string", hint: "e.g., icon-monster-2.svg", required: false}
+    - {label: "Summary", name: "summary", widget: "text"}
+    - {label: "Website URL", name: "url", widget: "string", required: false}
+    - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/member.html"}
+
+  - name: "faqs"
+    label: "FAQs"
+    folder: "src/faqs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Question", name: "title", widget: "string"}
+      - {label: "Answer", name: "body", widget: "markdown"}
+      - {label: "Categories", name: "categories", widget: "list", default: ["general"]}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "postAuthor", widget: "string"}
+      - {label: "Publish Date", name: "postDate", widget: "datetime"}
+      - {label: "Summary", name: "postSummary", widget: "text"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Image Caption", name: "imageCaption", widget: "string", required: false}
+      - {label: "Categories", name: "postCategories", widget: "list"}
+      - {label: "Tags", name: "postTags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Privacy Policy"
+        name: "privacy"
+        file: "src/privacy.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/privacy/"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Our Team"
+        name: "team"
+        file: "src/team.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/team.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/team/"}
+          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "Photo Gallery"
+        name: "photos"
+        file: "src/photos.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/photos.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/photos/"}
+          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "About the Project"
+        name: "about"
+        file: "src/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/about.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
+
+    # Main content sections
+          - {label: "Lede", name: "lede", widget: "markdown", required: false}
+          - {label: "Main Content", name: "main", widget: "markdown", required: false}
+          - {label: "Pull Quote", name: "pullQuote", widget: "markdown", required: false}
+          - {label: "Advertising", name: "advertising", widget: "markdown", required: false}
+          - {label: "Sponsorships", name: "sponsorships", widget: "markdown", required: false}
+
+    # Benefits sections
+          - {label: "Benefit 1", name: "benefits1", widget: "markdown", required: false}
+          - {label: "Benefit 2", name: "benefits2", widget: "markdown", required: false}
+          - {label: "Benefit 3", name: "benefits3", widget: "markdown", required: false}
+
+    # Team/bio section
+          - {label: "Bio Headline", name: "bioHeadline", widget: "string", required: false}
+          - {label: "Freeman Bio", name: "freemanBio", widget: "markdown", required: false}
+          - {label: "Freeman Role", name: "freemanRole", widget: "string", required: false}
+
+    # Funding section
+          - {label: "Funding", name: "funding", widget: "markdown", required: false}

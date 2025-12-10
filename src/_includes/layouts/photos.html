@@ -1,0 +1,36 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="layout" data-layout="boo-boo">
+
+<div>
+<h1>{{ title }}</h1>
+{{ content | safe }}
+
+<div class="modular">
+
+{% for photo in collections.photos %}
+<figure class="module{% if loop.first %} spanned" style="grid-column: span 3; grid-row: span 1;{% endif %}">
+<a href="{{ photo.url }}"><img src="/images/{{ photo.data.image }}" alt="{{ photo.data.imageCaption }}" style="view-transition-name: photo-zoom"></a>
+<figcaption>
+<h3 data-size="m">{{ photo.data.title }}</h3>
+<p>{{ photo.data.imageCaption }}</p>
+</figcaption>
+</figure><!-- module -->
+{% endfor %}
+
+</div><!-- modular -->
+
+</div><!-- one -->
+
+<aside>
+<h2>About the project</h2>
+
+{{ aside | safe }}
+
+<p><a href="/about" class="alt-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg> Read more</a></p>
+</aside><!-- two -->
+
+</div><!-- two -->
+{% endblock %}

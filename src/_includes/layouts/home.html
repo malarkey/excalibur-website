@@ -1,0 +1,100 @@
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+
+{% block content %}
+
+<div id="alt-hero" class="layout" data-layout="muttley">
+
+<nav>
+<ul>
+{% for item in navigation.items %}
+<li><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+{% endfor %}
+</ul>
+</nav><!-- one -->
+
+<div>
+<div data-visibility="large" style="max-inline-size:320px;">{% include "partials/logo-banner.njk" %}</div>
+<h1 data-visibility="hidden">{{ title }}</h1>
+{{ lede | safe }}
+{{ main | safe }}
+</div><!-- two -->
+
+<div>
+{{ aside1 | safe }}
+<hr data-function="spacer">
+{{ aside2 | safe }}
+</div><!-- three -->
+
+</div><!-- layout -->
+
+
+
+
+
+<hr data-function="spacer">
+
+<h2>Recent Mythic Wales</h2>
+
+<div data-layout="flex" data-border="r">
+
+{% for place in collections.places | limit(4) %}
+<div>
+<figure><a href="{{ place.url }}"><img src="{{ place.data.image }}" alt="{{ place.data.title }}"></a></figure>
+<h3><a href="{{ place.url }}">{{ place.data.title }}</a></h3>
+<p data-size="s">{{ place.data.summary }}</p>
+{% if place.data.town %}<small>{{ place.data.town }}</small>{% endif %}
+</div>
+{% endfor %}
+
+</div><!-- layout -->
+
+
+
+
+<hr data-function="spacer">
+
+<h3 data-size="s">Advertisements</h3>
+
+<div data-layout="flex" data-content="adverts">
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-1.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-2.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-3.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-4.webp" alt=""></a></div>
+</div><!-- layout -->
+
+
+
+<hr data-function="spacer">
+
+<h2><a href="/blog">News</a></h2>
+
+<div data-content="posts">
+{% set postListItems = collections.blog | limit(4) %}
+
+{% for item in postListItems %}
+<article class="item-post">
+
+<div class="alt-bordered">
+<small class="item-meta">{{ item.data.postDate | dateFilter('d MMM yyyy') }}</small>
+</div><!-- alt-bordered -->
+
+<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+<p>{{ item.data.postSummary }}</p>
+</article>
+{% endfor %}
+
+</div><!-- posts -->
+
+{% endblock %}
+
+{% include "partials/footer.html" %}
+</body>
+
+</html>

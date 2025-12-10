@@ -1,0 +1,15 @@
+<header role="banner">
+
+<div id="banner-logo">
+<a href="/" aria-label="{{ site.name }}" title="Home">{% include "partials/logo-banner.njk" %}<span data-visibility="hidden">{{ site.name }}</span></a>
+</div><!-- banner-logo -->
+
+<nav>
+<ul>
+{% for item in navigation.items %}
+<li><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+{% endfor %}
+</ul>
+</nav>
+
+</header>

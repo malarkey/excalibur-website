@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "text": "The film",
+      "url": "/about/"
+    },
+    {
+      "text": "Mythic Wales",
+      "url": "/mythic-wales/"
+    },
+    {
+      "text": "News",
+      "url": "/blog/"
+    },
+    {
+      "text": "Store",
+      "url": "/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}

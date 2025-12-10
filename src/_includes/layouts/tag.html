@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+
+{% include "partials/header.html" %}
+
+<h1 data-size="3xl">{{ tag }}</h1>
+<p class="alt-lede">{{ collections.places | filterPlacesByTag(tag) | length }} mystic places with this tag</p>
+
+<div class="layout" data-layout="clyde">
+
+<div data-content="entries">
+{% for place in collections.places | filterPlacesByTag(tag) %}
+{% include "partials/place-card.html" %}
+{% endfor %}
+</div><!-- entries -->
+
+<div>
+<p><a href="/mythic-wales">Back to Mythic Wales</a></p>
+<figure>
+<a href="/mythic-wales"><img src="/images/map-regions-small.svg" alt="Mythic Wales map"></a>
+</figure>
+
+<h2>Related tags</h2>
+<ul class="alt-">
+{% for otherTag in collections.placeTags %}
+{% if otherTag != tag %}
+<li>
+<a href="/places/tag/{{ otherTag | slug }}/">
+{{ otherTag }}
+{% set otherTagEntries = collections.places | filterPlacesByTag(otherTag) %}
+<span>({{ otherTagEntries.length }})</span>
+</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+</div><!-- sidebar -->
+
+</div><!-- layout -->
+
+{% include "partials/footer.html" %}
+</body>
+</html>

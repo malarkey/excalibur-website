@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+{% include "partials/header.html" %}
+
+<h1 data-size="3xl">{{ town }}</h1>
+<p class="alt-lede">{{ collections.places | filterPlacesByTown(town) | length }} mystic places in {{ town }}</p>
+
+<div class="layout" data-layout="clyde">
+
+<div data-content="entries">
+{% for place in collections.places | filterPlacesByTown(town) %}
+{% include "partials/place-card.html" %}
+{% endfor %}
+</div><!-- entries -->
+
+<div>
+<h3>Nearby Towns</h3>
+
+<ul class="alt-" data-variant="bordered-l">
+{% for otherTown in collections.placeTowns %}
+{% if otherTown != town %}
+<li>
+<a href="/places/town/{{ otherTown | slug }}/">
+{{ otherTown }}
+{% set otherTownPlaces = collections.places | filterPlacesByTown(otherTown) %}
+<span>({{ otherTownPlaces.length }})</span>
+</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+</div><!-- two -->
+</div><!-- layout -->
+
+{% include "partials/footer.html" %}
+</body>
+</html>

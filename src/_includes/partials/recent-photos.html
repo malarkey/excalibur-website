@@ -1,0 +1,17 @@
+<div class="layout" data-layout="pockets">
+
+<div>
+<h2 class="alt-bg" data-align-h="center"><a href="/gallery">Photos</a></h2>
+</div><!-- one -->
+
+<div data-layout="flex">
+{% set recentPhotos = collections.photos | limit(4) %}
+{% for photo in recentPhotos %}
+<figure>
+<a href="{{ photo.url }}"><img src="/images/{{ photo.data.image }}" alt="{{ photo.data.title }}" style="view-transition-name: photo-zoom"></a>
+<figcaption>{{ photo.data.title }}</figcaption>
+</figure>
+{% endfor %}
+</div><!-- two -->
+
+</div><!-- layout -->

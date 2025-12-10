@@ -1,0 +1,47 @@
+<head>
+
+<!-- ********************************************************
+Design: Andy Clarke • Stuff & Nonsense
+URL: https://stuffandnonsense.co.uk
+******************************************************** -->
+
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+{% include "partials/meta.html" %}
+
+<meta name="msapplication-TileColor" content="">
+<meta name="theme-color" content="">
+<meta name="robots" content="index, follow, noodp" />
+<meta name="apple-mobile-web-app-title" content="E F" />
+
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="stylesheet" href="{{ site.url }}/css/critical.css">
+
+<script>
+// Fancy zoom transitions for photos
+if (document.startViewTransition) {
+document.addEventListener('click', (e) => {
+const link = e.target.closest('a');
+
+// Only intercept photo thumbnail clicks
+if (link &&
+link.href &&
+link.href.includes('/photos/photo-') &&  // Target individual photo pages
+link.querySelector('img')) {
+
+e.preventDefault();
+document.startViewTransition(() => {
+window.location.href = link.href;
+});
+}
+});
+}
+</script>
+
+</head>

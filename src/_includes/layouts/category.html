@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+
+{% include "partials/header.html" %}
+
+<h1 data-size="3xl">{{ category }}</h1>
+<p class="alt-lede">{{ collections.places | filterPlacesByCategory(category) | length }} mystic places in this area</p>
+
+<div class="layout" data-layout="clyde">
+
+<div data-content="entries">
+{% for place in collections.places | filterPlacesByCategory(category) %}
+{% include "partials/place-card.html" %}
+{% endfor %}
+</div><!-- entries -->
+
+<div>
+<p><a href="/mythic-wales">Back to Mythic Wales</a></p>
+<figure>
+<a href="/mythic-wales"><img src="/images/map-regions-small.svg" alt="Mythic Wales map"></a>
+</figure>
+
+<h2>More areas</h2>
+
+<ul class="alt-" data-variant="bordered-l">
+{% for otherCategory in collections.placeCategories %}
+{% if otherCategory != category %}
+<li>
+<a href="/places/category/{{ otherCategory | slug }}/">
+{{ otherCategory }}
+{% set otherCategoryPlaces = collections.places | filterPlacesByCategory(otherCategory) %}
+<span>({{ otherCategoryPlaces.length }})</span>
+</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+</div><!-- sidebar -->
+
+</div><!-- layout -->
+
+{% include "partials/footer.html" %}
+</body>
+</html>

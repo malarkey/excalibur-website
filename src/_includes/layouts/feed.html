@@ -1,0 +1,54 @@
+{% extends "layouts/base.html" %}
+
+{% set postListItems = pagination.items %}
+
+{% if tag %}
+{% set postListItems = collections[tag] %}
+{% set pageHeaderTitle = 'Blog posts filed under “' + tag + '”' %}
+{% else %}
+{% set pageHeaderTitle = title %}
+{% endif %}
+
+{% block content %}
+
+<h1 data-size="3xl">{{ pageHeaderTitle }}</h1>
+
+{{ content | safe }}
+
+<div class="layout" data-layout="boo-boo">
+
+<div data-content="posts">
+{% if collections.blog and collections.blog.length %}
+{% include "partials/post-list.html" %}
+{% else %}
+<p>No highlights yet.</p>
+{% endif %}
+</div><!-- one -->
+
+<aside>
+{% if collections.blog and collections.blog.length %}
+<h2>Categories</h2>
+<ul class="alt-" data-variant="bordered-l">
+{% for category in collections.postCategories %}
+<li><a href="/blog/category/{{ category | slug }}/">{{ category }}</a></li>
+{% endfor %}
+</ul>
+
+<hr data-function="spacer">
+
+<h2>Tags</h2>
+<ul class="alt-" data-variant="bordered-l">
+{% for tag in collections.postTags %}
+<li><a href="/blog/tag/{{ tag | slug }}/">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+</aside><!-- two -->
+
+</div><!-- layout -->
+
+{% if not tag %}
+{% include "partials/pagination.html" %}
+{% endif %}
+
+{% endblock %}

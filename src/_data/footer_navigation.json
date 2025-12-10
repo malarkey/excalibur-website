@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    },
+    {
+      "text": "FAQs",
+      "url": "/faqs/"
+    },
+    {
+      "text": "Privacy",
+      "url": "/privacy/"
+    }
+  ]
+}

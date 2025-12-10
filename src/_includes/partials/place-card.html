@@ -1,0 +1,39 @@
+<div class="item-entry">
+
+{% if place.data.image %}
+<figure>
+<img src="{{ place.data.image }}" alt="{{ place.data.title }}" loading="lazy">
+</figure>
+{% endif %}
+
+<h2><a href="{{ place.url }}">{{ place.data.title }}</a></h2>
+
+{% if place.data.summary %}
+<p data-size="s">{{ place.data.summary }}</p>
+{% endif %}
+
+<ul class="alt-inline">
+{% if place.data.type %}<li>{{ place.data.type }}</li>{% endif %}
+<li>
+{% if place.data.coordinates %}
+<a href="https://www.google.com/maps/search/?api=1&query={{ place.data.coordinates | urlencode }}" target="_blank" rel="noopener" title="Google Maps" class="maps-link">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16" class="img-icon">
+<path fill-rule="evenodd" fill="#fff" d="m7.693 14.9.047.027.019.011a.5.5 0 0 0 .482 0l.018-.01.048-.027a11 11 0 0 0 .762-.495 13 13 0 0 0 1.789-1.521C12.154 11.558 13.5 9.565 13.5 7a5.5 5.5 0 0 0-11 0c0 2.564 1.347 4.558 2.642 5.885a13 13 0 0 0 1.788 1.521 11 11 0 0 0 .763.495M8 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4" clip-rule="evenodd"/>
+</svg>
+<span data-visibility="hidden">Google Maps</span>
+</a>
+{% endif %}
+&nbsp;
+{% if place.data.town %}{{ place.data.town }}{% endif %}
+</li>
+</ul>
+
+{% if place.data.tags %}
+<small>
+{% for tag in place.data.tags %}
+<a href="/places/tag/{{ tag | slug }}/" class="alt-tag">{{ tag }}</a>
+{% endfor %}
+</small>
+{% endif %}
+
+</div><!-- item-entry -->

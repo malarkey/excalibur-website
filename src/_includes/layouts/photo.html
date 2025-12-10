@@ -1,0 +1,37 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+<div class="alt-bordered">
+<h1>{{ title }}</h1>
+<a href="/gallery/" class="alt-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg>Back</a>
+</div><!-- alt-bordered -->
+
+<figure>
+<img src="/images/{{ image }}" alt="{{ imageCaption }}" style="view-transition-name: photo-zoom">
+<figcaption>{{ imageCaption }} {% if photographer %} &#169; {{ photographer }}{% endif %}</figcaption>
+</figure>
+
+<div class="alt-columns">
+{{ content | safe }}
+</div><!-- alt-columns -->
+
+<hr>
+
+<div data-layout="flex">
+
+<ul class="alt-" data-size="s">
+{% if photographer %}<li><b>Photographer</b> {{ photographer }}</li>{% endif %}
+{% if location %}<li><b>Location</b> {{ location }}</li>{% endif %}
+{% if date %}<li><b>Date</b> {{ date | dateFilter }}</li>{% endif %}
+</ul>
+
+<ul class="alt-" data-size="s">
+{% if categories %}<li><b>Categories</b> {{ categories }}</li>{% endif %}
+{% if tags %}<li><b>Tags</b> {{ tags }}</li>{% endif %}
+</ul>
+
+</div>
+
+{% endblock %}

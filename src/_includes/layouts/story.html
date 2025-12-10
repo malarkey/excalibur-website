@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+
+{% include "partials/header.html" %}
+
+<div class="layout" data-layout="clyde">
+
+<div>
+<h1 data-size="3xl">{{ title }}</h1>
+
+<small class="alt-meta">
+{% if author %}<span>By {{ author }}{% if authorLocation %} from {{ authorLocation }}{% endif %}</span>{% endif %} •
+{% if date %}<span>{{ date | dateFilter }}</span>{% endif %}
+{% if place %}
+{% set placeEntry = collections.places | findPlaceByUrl(place) %}
+{% if placeEntry %} •
+<a href="{{ placeEntry.url }}">{{ placeEntry.data.title }}</a>
+{% endif %}
+{% endif %}
+</small>
+
+{% if images and images[0] %}
+<figure class="story-hero">
+<img src="{{ images[0] }}" alt="{{ title }}">
+</figure>
+{% endif %}
+
+{{ content | safe }}
+
+<hr>
+
+{% if images and images.length > 1 %}
+
+<h3>Photos from {{ author }}</h3>
+
+<div data-content="photos">
+{% for image in images %}
+{% if not loop.first %}
+<figure>
+<img src="{{ image }}" alt="Story image {{ loop.index }}" loading="lazy">
+</figure>
+{% endif %}
+{% endfor %}
+</div>
+{% endif %}
+
+<hr>
+
+</div><!-- one -->
+
+<div>
+{% if author %}
+<h3>About {{ author }}</h3>
+<small class="alt-meta">{{ authorLocation }} • {% set authorStories = collections.stories | filterByAuthor(author) %}
+{% if authorStories.length > 1 %}<a href="/stories/author/{{ author | slug }}/">{{ authorStories.length }} stories</a>{% endif %}</small>
+{% endif %}
+
+{% if place %}
+{% set placeEntry = collections.places | findPlaceByUrl(place) %}
+{% if placeEntry %}
+
+<hr>
+
+<h3>About this place</h3>
+
+<h4><a href="{{ placeEntry.url }}">{{ placeEntry.data.title }}</a></h4>
+<p data-size="s">{{ placeEntry.data.summary }}</p>
+{% endif %}
+{% endif %}
+
+</div><!-- two -->
+
+</div><!-- layout -->
+
+{% include "partials/footer.html" %}
+</body>
+</html>
