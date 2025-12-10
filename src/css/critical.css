@@ -1023,6 +1023,12 @@ background-position: center top;
 background-repeat: no-repeat, repeat-x;
 background-size: contain, 100%; }
 
+[data-theme="light"] {
+#alt-hero {
+background-image: url(../images/img-index-alt.webp),
+linear-gradient(to top, var(--color-background-default) 0%, var(--color-accent) 200%); }
+}
+
 /* ==========================================================================
 FOOTER COMPONENT
 ========================================================================== */
@@ -1270,6 +1276,11 @@ background-size: contain;
 margin-inline: calc(-1 * var(--spacing-l));
 min-block-size: 80vh;
 width: calc(100% + 2 * var(--spacing-l)); }
+
+[data-theme="light"] {
+#alt-hero {
+background-image: linear-gradient(to top, var(--color-background-default) 0%, var(--color-accent) 200%); }
+}
 
 @keyframes twinkle {
 0%, 100% { opacity: 0.3; }
