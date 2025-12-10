@@ -20,7 +20,7 @@ layout: "layouts/base.html"
 
 <div>
 <h3>All Categories</h3>
-<ul>
+<ul class="alt-" data-variant="bordered-l">
 {% for cat in collections.postCategories %}
 <li><a href="/blog/category/{{ cat | slug }}/">{{ cat }}</a></li>
 {% endfor %}

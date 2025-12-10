@@ -20,7 +20,7 @@ layout: "layouts/base.html"
 
 <div>
 <h3>All Tags</h3>
-<ul>
+<ul class="alt-" data-variant="bordered-l">
 {% for tag in collections.postTags %}
 <li><a href="/blog/tag/{{ tag | slug }}/">{{ tag }}</a></li>
 {% endfor %}

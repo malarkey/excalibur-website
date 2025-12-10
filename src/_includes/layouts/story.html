@@ -56,7 +56,7 @@
 {% if author %}
 <h3>About {{ author }}</h3>
 <small class="alt-meta">{{ authorLocation }} • {% set authorStories = collections.stories | filterByAuthor(author) %}
-{% if authorStories.length > 1 %}<a href="/stories/author/{{ author | slug }}/">{{ authorStories.length }} stories</a>{% endif %}</small>
+{% if authorStories.length > 1 %}{{ authorStories.length }} stories{% endif %}</small>
 {% endif %}
 
 {% if place %}

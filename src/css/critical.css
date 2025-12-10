@@ -109,7 +109,22 @@
 --saturate-up: 1.25;
 --saturate-down: .85; }
 
-[data-theme="dark"] { }
+[data-theme="dark"] {
+
+--color-accent: #6d8e19; /* Primary brand accent (lime green) */
+--color-background-default: #1b1d17; /* Main background */
+--color-background-alt: #fff; /* Alternative background */
+--color-base: #000; /* Darker background for contrast */
+--color-border: #6d8e19; /* Border and secondary accent */
+--color-text-default: #fff; /* Primary text color */
+--color-text-alt: #1b1d17; /* Text on dark backgrounds */
+--color-text-link: #6d8e19;
+--color-text-link-hover: var(--color-accent);
+--color-text-link-decoration: var(--color-accent);
+--color-button-background: var(--color-text-link);
+--color-button-text: var(--color-text-alt);
+--color-input-background: var(--color-base);
+}
 
 /* ==========================================================================
 UTILITY STYLES
@@ -666,6 +681,9 @@ video {
 border-radius: var(--border-radius-r);
 margin-bottom: var(--spacing-r); }
 
+.img-detail path {
+fill: var(--color-accent); }
+
 .img-icon path {
 fill: var(--color-text-link);
 transition: fill var(--animate-duration-faster) var(--animate-function); }
@@ -693,6 +711,9 @@ margin-block-end: var(--spacing-s);
 margin-block-start: 0;
 margin-inline: 0;
 text-transform: uppercase; }
+
+label span {
+font-size: var(--font-size-s) !important; }
 
 /* Form input styles */
 :is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea) {
@@ -968,7 +989,7 @@ opacity: .5; } }
 animation: sword-drop .5s ease .5s forwards;
 fill: #a5293e;
 opacity: 0;
-transform: translateY(-300px);
+transform: translateY(300px);
 transition: fill var(--animate-duration-fast) var(--animate-function); }
 
 .logo-blur {
@@ -979,7 +1000,7 @@ transition: fill var(--animate-duration-fast) var(--animate-function);  }
 
 svg:hover .logo-blur {
 fill: var(--color-accent);
-opacity: 1; }
+opacity: .5; }
 
 .logo-text {
 fill: #fff; }
