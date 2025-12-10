@@ -3,7 +3,7 @@ name: 'David Palser'
 order: 3
 role: 'Production Designer'
 url:
-image: img-team-aneirin-karadog.webp
+image: img-team-david-palser.webp
 imageBg: icon-monster-3.svg
 eleventyComputed:
   title: "{{ name }}"
