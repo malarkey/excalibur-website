@@ -5,11 +5,16 @@
 
 {% include "partials/head.html" %}
 
-<body id="{{ site.siteID }}" data-theme="light">
+<body id="{{ site.siteID }}" data-theme="dark">
 
 {% block content %}
 
 <div id="alt-hero" class="layout" data-layout="muttley">
+
+<div>
+{% include "partials/img-index.njk" %}
+</div><!-- one -->
+
 
 <nav>
 <ul>
@@ -17,28 +22,25 @@
 <li><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
 {% endfor %}
 </ul>
-</nav><!-- one -->
+</nav><!-- two -->
 
 <div>
-<div data-visibility="large" style="max-inline-size:320px;">{% include "partials/logo-banner.njk" %}</div>
+<div style="max-inline-size:320px;">{% include "partials/logo-banner.njk" %}</div>
 <h1 data-visibility="hidden">{{ title }}</h1>
 {{ lede | safe }}
 {{ main | safe }}
-</div><!-- two -->
+</div><!-- three -->
 
 <div>
 {{ aside1 | safe }}
 <hr data-function="spacer">
 {{ aside2 | safe }}
-</div><!-- three -->
+</div><!-- four -->
 
 </div><!-- layout -->
 
 
 
-
-
-<hr data-function="spacer">
 
 <h2>Recent Mythic Wales</h2>
 
