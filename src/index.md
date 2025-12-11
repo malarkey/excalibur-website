@@ -6,7 +6,7 @@ title: Excalibur film
 main: |
  <p class="alt-lede">An epic blockbuster bursting with action, magic and romance.</p>
 
- <p>Based on the original Welsh tales of King Arthur, Excalibur will be filmed entirely across the breathtaking landscapes of Cymru/Wales. Excalibur isn&#8217;t just a movie. It&#8217;s a national movement comprising our team plus the people of Cymru.</p>
+ <p>Based on the original Welsh tales of King Arthur, Excalibur will be filmed entirely across the breathtaking landscapes of Cymru/Wales. Excalibur isn&#8217;t just a movie. It&#8217;s a national movement. We&#8217;re bringing fantasy home, so join us.</p>
 
  <p style="margin-block-start:var(--spacing-l);">
  <a href="/about/" class="btn" data-variant="s">Learn more</a>

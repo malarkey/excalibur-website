@@ -896,6 +896,16 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/img-arthur.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-arthur.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/dist\/images\/img-blockquote.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -972,6 +982,37 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/img-gwalchmai.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-gwalchmai.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-gwenhwyfar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-gwenhwyfar.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-index-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 58068,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-index-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/img-index.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -993,11 +1034,101 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/img-modred.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-modred.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-morgan.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-morgan.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-myrddin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-myrddin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/dist\/images\/img-pullquote.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/dist\/images\/img-pullquote.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-silhouette-arthur.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-silhouette-arthur.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-silhouette-gwalchmai.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-silhouette-gwalchmai.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-silhouette-gwenhwyfar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-silhouette-gwenhwyfar.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-silhouette-modred.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-silhouette-modred.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-silhouette-morgan.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-silhouette-morgan.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-silhouette-myrddin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-silhouette-myrddin.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1019,6 +1150,17 @@
       "iS" : 125804,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-team-aneirin-karadog.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-team-david-palser.webp" : {
+      "ft" : 8388608,
+      "iS" : 153492,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-team-david-palser.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1164,7 +1306,7 @@
     },
     "\/dist\/images\/tmp-advert-1.webp" : {
       "ft" : 8388608,
-      "iS" : 25090,
+      "iS" : 7878,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-1.webp",
       "oF" : 0,
@@ -1175,7 +1317,7 @@
     },
     "\/dist\/images\/tmp-advert-2.webp" : {
       "ft" : 8388608,
-      "iS" : 8404,
+      "iS" : 8178,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-2.webp",
       "oF" : 0,
@@ -1186,7 +1328,7 @@
     },
     "\/dist\/images\/tmp-advert-3.webp" : {
       "ft" : 8388608,
-      "iS" : 11738,
+      "iS" : 17478,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-3.webp",
       "oF" : 0,
@@ -1197,9 +1339,20 @@
     },
     "\/dist\/images\/tmp-advert-4.webp" : {
       "ft" : 8388608,
-      "iS" : 12078,
+      "iS" : 14742,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-advert-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 14082,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-advert-5.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3156,6 +3309,17 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/src\/images\/img-index-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 58068,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-index-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/img-index.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -3182,6 +3346,66 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/src\/images\/img-pullquote.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-silhouette-arthur.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-silhouette-arthur.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-silhouette-gwalchmai.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-silhouette-gwalchmai.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-silhouette-gwenhwyfar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-silhouette-gwenhwyfar.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-silhouette-modred.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-silhouette-modred.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-silhouette-morgan.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-silhouette-morgan.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-silhouette-myrddin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-silhouette-myrddin.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -3352,8 +3576,8 @@
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-advert-1.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3384,6 +3608,17 @@
       "iS" : 12034,
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-advert-4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-advert-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 14160,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-advert-5.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

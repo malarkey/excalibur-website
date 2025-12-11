@@ -17,7 +17,7 @@
 
 
 <nav>
-<ul>
+<ul style="padding-block-start: var(--spacing-r);">
 {% for item in navigation.items %}
 <li><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
 {% endfor %}
@@ -25,7 +25,7 @@
 </nav><!-- two -->
 
 <div>
-<div style="max-inline-size:320px;">{% include "partials/logo-banner.njk" %}</div>
+<div id="hero-logo">{% include "partials/logo-banner.njk" %}</div>
 <h1 data-visibility="hidden">{{ title }}</h1>
 {{ lede | safe }}
 {{ main | safe }}
@@ -42,7 +42,7 @@
 
 
 
-<h2>Recent Mythic Wales</h2>
+<h2>Visit Mythic Wales</h2>
 
 <div data-layout="flex" data-border="r">
 
@@ -69,6 +69,7 @@
 <div><a href="javascript:void(0)"><img src="/images/tmp-advert-2.webp" alt=""></a></div>
 <div><a href="javascript:void(0)"><img src="/images/tmp-advert-3.webp" alt=""></a></div>
 <div><a href="javascript:void(0)"><img src="/images/tmp-advert-4.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-5.webp" alt=""></a></div>
 </div><!-- layout -->
 
 
