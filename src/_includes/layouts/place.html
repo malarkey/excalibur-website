@@ -48,6 +48,10 @@
 <a href="/mythic-wales"><img src="/images/map-regions-small.svg" alt="Mythic Wales map"></a>
 </figure>
 
+<p><a href="#section-share" class="btn">Share your story</a></p>
+
+<hr data-function="spacer">
+
 {% if category %}
 <h3>More in {{ category }}</h3>
 <ul class="alt-" data-variant="bordered-l">
@@ -130,10 +134,10 @@
 {% endif %}
 </div><!-- one -->
 
-<div>
-<h2>Share your experience</h2>
+<div id="section-share">
+<h2>Share your story</h2>
 
-<p>Have you visited {{ title }}? Share your experience with our community.</p>
+<p>Have you visited {{ title }}? Share your story with our community.</p>
 
 <form action="/api/submit-story" method="POST" enctype="multipart/form-data" class="story-form">
 <input type="hidden" name="place" value="{{ page.fileSlug }}">
@@ -228,8 +232,6 @@
 </div><!-- alt-checkbox -->
 <p>I agree to my story being published</p>
 </div><!-- alt-label -->
-
-
 
 <div data-layout="flex">
 <div>

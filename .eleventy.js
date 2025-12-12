@@ -109,6 +109,22 @@ story.data.place && story.data.place === placeUrl
 );
 });
 
+eleventyConfig.addFilter("storiesByCategory", function(stories, categoryName) {
+  // Get collections from the Nunjucks context (this.ctx)
+  const collections = this.ctx?.collections;
+  if (!collections?.places) return [];
+
+  return stories.filter(story => {
+    if (!story.data.place) return false;
+
+    // Find the place this story is about
+    const place = collections.places.find(p => p.fileSlug === story.data.place);
+    if (!place || !place.data.category) return false;
+
+    return place.data.category === categoryName;
+  });
+});
+
 eleventyConfig.addFilter("filterByAuthor", (stories, authorName) => {
 return stories.filter(story =>
 story.data.author && story.data.author === authorName
@@ -351,6 +367,29 @@ places.add(story.data.place);
 }
 });
 return Array.from(places).sort();
+});
+
+// NEW: STORIES BY CATEGORY COLLECTION
+eleventyConfig.addCollection("storiesByCategoryCollection", function(collectionApi) {
+const stories = collectionApi.getFilteredByGlob("./src/stories/*.md");
+const places = collectionApi.getFilteredByGlob("./src/places/*.md");
+
+const result = {};
+
+stories.forEach(story => {
+if (story.data.place) {
+const place = places.find(p => p.fileSlug === story.data.place);
+if (place && place.data.category) {
+const category = place.data.category;
+if (!result[category]) {
+result[category] = [];
+}
+result[category].push(story);
+}
+}
+});
+
+return result;
 });
 
 // GENERATE PLACES CATEGORY PAGES

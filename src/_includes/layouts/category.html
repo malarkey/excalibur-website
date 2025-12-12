@@ -24,6 +24,10 @@
 <a href="/mythic-wales"><img src="/images/map-regions-small.svg" alt="Mythic Wales map"></a>
 </figure>
 
+<p><a href="#section-share" class="btn">Share your story</a></p>
+
+<hr data-function="spacer">
+
 <h2>More areas</h2>
 
 <ul class="alt-" data-variant="bordered-l">
@@ -40,6 +44,188 @@
 {% endfor %}
 </ul>
 </div><!-- sidebar -->
+
+</div><!-- layout -->
+
+
+
+
+<hr data-function="spacer">
+
+<h3 data-size="s">Advertisements</h3>
+
+<div data-layout="flex" data-content="adverts">
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-1.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-2.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-3.webp" alt=""></a></div>
+<div><a href="javascript:void(0)"><img src="/images/tmp-advert-4.webp" alt=""></a></div>
+</div><!-- layout -->
+
+<hr data-function="spacer">
+
+<div class="layout" data-layout="klunk">
+
+<div>
+{% set categoryStories = collections.stories | storiesByCategory(category) %}
+
+{% if categoryStories.length > 0 %}
+<h2 data-size="3xl">Stories from {{ category }}</h2>
+
+{% for story in categoryStories | limit(6) %}
+<article class="item-story">
+<div class="alt-bordered">
+{% if story.data.author %}<small class="item-meta">By {{ story.data.author }}</small>{% endif %}
+{% if story.data.date %}<small class="item-meta">{{ story.data.date | dateFilter }}</small>{% endif %}
+</div>
+
+<h3><a href="{{ story.url }}">{{ story.data.title }}</a></h3>
+
+{% if story.data.summary %}
+<p>{{ story.data.summary }}</p>
+{% endif %}
+
+<!-- Show which place this story is about -->
+{% set storyPlace = collections.places | findPlaceByUrl(story.data.place) %}
+{% if storyPlace %}
+<small class="story-place">
+About: <a href="{{ storyPlace.url }}">{{ storyPlace.data.title }}</a>
+</small>
+{% endif %}
+</article>
+{% endfor %}
+
+{% if categoryStories.length > 6 %}
+<p><a href="/stories/?category={{ category | slug }}">Read all {{ categoryStories.length }} stories from {{ category }}</a></p>
+{% endif %}
+
+{% else %}
+<h2>No stories yet from {{ category }}</h2>
+<p>Be the first to share your experience in this area!</p>
+{% endif %}
+</div><!-- one -->
+
+<div id="section-share">
+<h2>Share your {{ category }} story</h2>
+<p>Have you visited a mystic location in {{ category }}? Share your story.</p>
+
+<form action="/api/submit-story" method="POST" enctype="multipart/form-data" class="story-form">
+<input type="hidden" name="category" value="{{ category }}">
+<input type="hidden" name="categoryTitle" value="{{ title }}">
+
+<!-- Category pages need place selection -->
+<div class="form-group">
+<label for="place">Which place in {{ category }}? *</label>
+<select name="place" id="place" required>
+<option value="">Choose a place</option>
+{% for place in collections.places | filterPlacesByCategory(category) %}
+<option value="{{ place.fileSlug }}">{{ place.data.title }}</option>
+{% endfor %}
+</select>
+</div>
+
+<div data-layout="flex">
+
+<div>
+<label for="author">Name</label>
+<input type="text" name="author" id="author">
+</div><!-- one -->
+
+<div>
+<label for="authorLocation">Your location</label>
+<input type="text" name="authorLocation" id="authorLocation">
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<div>
+<label for="email">Email <span>(won&#8217;t be published)</span></label>
+<input type="email" id="email" name="email">
+</div>
+
+<hr>
+
+<div>
+<label for="visitDate">Visit date</label>
+<input type="date" id="visitDate" name="visitDate">
+</div>
+
+<hr>
+
+<div>
+<label for="title">Story title</label>
+<input type="text" id="title" name="title" required>
+</div>
+
+<div>
+<label for="summary">Short summary <span>(Up to 30 words)</span></label>
+<textarea id="summary" name="summary" required></textarea>
+</div>
+
+<div>
+<label for="content">Your story</label>
+<textarea id="content" name="content" required></textarea>
+</div>
+
+<div>
+<label for="video">Video URL <span>(Facebook, Vimeo, or YouTube)</span></label>
+<input type="text" id="video" name="video">
+</div>
+
+<hr>
+
+<div data-layout="flex">
+
+<div>
+<label for="images">Upload photos (optional)</label>
+<small>You can upload multiple photos (max 5MB each)</small>
+</div><!-- one -->
+
+<div>
+<input type="file" id="images" name="images" multiple accept="image/*">
+<label for="images" class="file-upload-label" data-visibility="hidden">Choose files</label>
+<p>No files chosen</p>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<hr>
+
+<div data-layout="flex">
+
+<div>
+<label for="tags">Tags <span>(comma-separated)</span></label>
+<small>Help others find similar stories</small>
+</div><!-- one -->
+
+<div>
+<input type="text" id="tags" name="tags">
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<hr>
+
+<div class="alt-label">
+<div class="alt-checkbox">
+<input type="checkbox" name="consent" id="consent" checked>
+<label for="consent"></label>
+</div><!-- alt-checkbox -->
+<p>I agree to my story being published</p>
+</div><!-- alt-label -->
+
+<div data-layout="flex">
+<div>
+<small>Stories are moderated before publication. You&#8217;ll receive an email when your story is live.</small>
+</div><!-- one -->
+
+<div>
+<button type="submit" class="btn">Share your story</button>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+</form>
+</div><!-- two -->
 
 </div><!-- layout -->
 

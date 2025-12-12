@@ -917,6 +917,7 @@ ADVERTS
 ========================================================================== */
 
 [data-content="adverts"] img {
+background-color: var(--color-border);
 opacity: 1;
 scale: 1;
 transition: all var(--animate-duration-faster) var(--animate-function); }
