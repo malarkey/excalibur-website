@@ -14,15 +14,18 @@ main: |
  <a href="/mythic-wales/" class="btn" data-variant="s">Explore</a></p>
 
 aside1: |
- <h2 data-size="3xl">Mythic Wales</h2>
+ <h2 data-size="2xl">Mythic Wales</h2>
 
- <p data-size="s">Long before The Lord of the Rings made New Zealand famous, Welsh legends of King Arthur ignited the imagination. We&#8217;are bringing this legendary tale back to its roots and championing Cymru as the home of fantasy. &#8212; <a href="/mythic-wales/">Explore Mythic Wales</a></p>
+ <p data-size="s">Long before The Lord of the Rings made New Zealand famous, Welsh legends of King Arthur ignited the imagination. We&#8217;re bringing this legendary tale back to its roots and championing Cymru as the home of fantasy. &#8212; <a href="/mythic-wales/">Explore Mythic Wales</a></p>
 
 aside2: |
- <h2 data-size="3xl">Excalibur film</h2>
+ <h2 data-size="2xl">Excalibur film</h2>
 
  <p data-size="s">You can follow behind-the-scenes updates as sets, costumes, and effects are crafted by world-class talent from Cymru and beyond. &#8212; <a href="/about/">Learn more</a></p>
 
 aside3: |
+ <h2 data-size="2xl">Excalibur game • <span>Coming soon</span></h2>
+
+ <p data-size="s">A tabletop role-playing game set in the world of Excalibur. It&#8217;s a 5e-compatible game in the magical world of Mythic Wales.</p>
 
 ---

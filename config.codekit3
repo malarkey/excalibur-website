@@ -9,17 +9,6 @@
   ],
   "creatorBuild" : "34704",
   "files" : {
-    "\/.eleventy-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/.eleventy-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/.eleventy.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4380,6 +4369,17 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/src\/tmp-advert-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 11878,
+      "oA" : 0,
+      "oAP" : "\/src\/tmp-advert-5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/src\/town.md" : {
       "cB" : 0,

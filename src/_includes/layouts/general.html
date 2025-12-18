@@ -1,0 +1,32 @@
+w{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+
+<div class="layout" data-layout="yogi">
+
+<div>
+
+{% if displayTitle %}
+<h1 data-size="3xl">{{ title }}</h1>
+{% else %}
+<h1 data-size="3xl">{{ title }}</h1>
+{% endif %}
+
+{% if lede %}
+<p class="alt-lede">{{ lede | safe }}</p>
+{% endif %}
+
+{{ content | safe }}
+
+</div><!-- one -->
+
+<div>
+{{ aside | safe }}
+</div><!-- two -->
+
+</div><!-- layout -->
+
+{% endblock %}
+

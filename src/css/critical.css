@@ -1437,7 +1437,7 @@ object-fit: cover;
 object-position: top right; }
 
 [data-layout="muttley"] > *:nth-child(2) {
-grid-column: 6 / -1;
+grid-column: 4 / -1;
 grid-row: 1;
 padding-block-start: var(--spacing-r);
 padding-inline-end: var(--spacing-r);
