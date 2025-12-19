@@ -378,6 +378,14 @@
       "oAP" : "\/dist\/contact\/index.html",
       "oF" : 0
     },
+    "\/dist\/contribute\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/contribute\/index.html",
+      "oF" : 0
+    },
     "\/dist\/css\/critical.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1462,6 +1470,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/invest\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/invest\/index.html",
       "oF" : 0
     },
     "\/dist\/js\/scripts.js" : {
@@ -2648,6 +2664,14 @@
       "oAP" : "\/src\/_includes\/layouts\/feed.html",
       "oF" : 0
     },
+    "\/src\/_includes\/layouts\/general.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/general.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/layouts\/home.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2930,6 +2954,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/contact.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/contribute.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/contribute.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -3719,6 +3762,25 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/src\/invest.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/invest.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/src\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4369,17 +4431,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/src\/tmp-advert-5.webp" : {
-      "ft" : 8388608,
-      "iS" : 11878,
-      "oA" : 0,
-      "oAP" : "\/src\/tmp-advert-5.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
     },
     "\/src\/town.md" : {
       "cB" : 0,
