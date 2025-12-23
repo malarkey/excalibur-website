@@ -1,30 +1,25 @@
 ---
-title: "The Standing Stones of Bryn Gwydion"
-summary: "Ancient megalithic circle shrouded in local folklore about druidic rituals and celestial alignments."
-type: "Ancient site"
-image: "/images/tmp-place-1.webp"
+title: "Barclodiad y Gawres (The Giantess’s Apronful)"
+summary: "Barclodiad y Gawres is a Neolithic burial chamber between Rhosneigr and Aberffraw on the coast of Yns Mon."
+type: "Burial chamber"
+image: "/images/entry-1.webp"
 tags:
-  - megalith
-  - marine
-  - omens
-  - folklore
-category: "Wrexham"
-coordinates: "52.123456, -3.987654"
-url: "standing-stones-bryn-gwydion"
-town: "Llanrhystud"
+  - burial
+category: "Anglesey"
+coordinates: "53.3184597, -3.3910091"
+url: "barclodiad-y-gawres"
+town: "Rhosneigr"
 layout: layouts/place.html
 permalink: /places/{{ url }}/
 
 ---
 
-The Standing Stones of Bryn Gwydion are a prehistoric monument located on a ridge in north Wales. Although the exact date of construction remains uncertain, the site is generally associated with the late Neolithic to early Bronze Age period. The monument consists of a linear arrangement of large upright stones set in open moorland, offering long-range views across the surrounding landscape.
+Barclodiad y Gawres (Welsh for &#8216;The Giantess&#8217;s Apronful&#8217;; is a Neolithic burial chamber between Rhosneigr and Aberffraw on the south-western coast of the island of Anglesey in North Wales. It is an example of a cruciform passage grave, a notable feature being its decorated stones. Similar graves and marks exist across the Irish Sea in the Boyne Valley.
 
-Archaeological surveys suggest that the stones were deliberately positioned to align on a north-east to south-west axis. This orientation has led to the hypothesis that the monument may have served ceremonial or astronomical functions, particularly relating to seasonal solar events. However, no definitive evidence has been discovered to confirm this interpretation. Limited excavation has taken place, and the absence of associated artefacts makes precise dating and cultural attribution difficult.
+---
 
-The geology of the stones indicates that they were sourced locally, possibly from nearby outcrops. The size and weight of individual stones imply coordinated labour and community organisation. The surface weathering visible today is consistent with prolonged exposure to harsh upland conditions. Despite this, most stones remain upright and structurally stable.
+### Information
 
-The Standing Stones of Bryn Gwydion are a prehistoric monument located on a ridge in north Wales. Although the exact date of construction remains uncertain, the site is generally associated with the late Neolithic to early Bronze Age period. The monument consists of a linear arrangement of large upright stones set in open moorland, offering long-range views across the surrounding landscape.
+Full excavations were performed in 1952&#8211;53, after which the chamber was re-roofed with concrete and covered with turf to resemble the original structure. During the excavations two cremated young male burials were found within the south-western side-chamber. The central area of the main chamber contained the remains of a fire on which had been poured a stew which had been made with wrasse, eel, frog, toad, grass snake, mouse, shrew and hare, then covered with limpet shells and pebbles.
 
-Archaeological surveys suggest that the stones were deliberately positioned to align on a north-east to south-west axis. This orientation has led to the hypothesis that the monument may have served ceremonial or astronomical functions, particularly relating to seasonal solar events. However, no definitive evidence has been discovered to confirm this interpretation. Limited excavation has taken place, and the absence of associated artefacts makes precise dating and cultural attribution difficult.
-
-The geology of the stones indicates that they were sourced locally, possibly from nearby outcrops. The size and weight of individual stones imply coordinated labour and community organisation. The surface weathering visible today is consistent with prolonged exposure to harsh upland conditions. Despite this, most stones remain upright and structurally stable.
+During the excavations five stones with carvings—spirals, zig-zags, lozenges and chevrons—were discovered. A sixth stone with carvings was discovered in 2001.

@@ -1358,7 +1358,7 @@
     },
     "\/dist\/images\/tmp-advert-5.webp" : {
       "ft" : 8388608,
-      "iS" : 14082,
+      "iS" : 11878,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-5.webp",
       "oF" : 0,
@@ -1835,6 +1835,14 @@
       "oAP" : "\/dist\/places\/tag\/animals\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/tag\/burial\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/burial\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/tag\/celestial\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2017,6 +2025,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/town\/llanrhystud\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/rhosneigr\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/rhosneigr\/index.html",
       "oF" : 0
     },
     "\/dist\/privacy\/index.html" : {

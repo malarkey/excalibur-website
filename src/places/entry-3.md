@@ -1,23 +1,26 @@
 ---
-title: "Ogof y Ddraig Goch (Red Dragon's Cave)"
-summary: "A sea cave on the Pembrokeshire coast where, according to legend, the last Welsh dragon retreated after its battle with the white dragon."
-type: "Legendary Site"
-image: "/images/tmp-place-1.webp"
+title: "Tinkinswood Burial Chamber"
+summary: "Megalithic burial chamber, built around 4000 BC, during the Neolithic period, in the Vale of Glamorgan, near Cardiff, Wales."
+type: "Burial chamber"
+image: "/images/entry-3.webp"
 tags:
-  - dragon
-  - marine
-  - omens
-  - folklore
+  - burial
 category: "Wrexham"
-coordinates: "51.789012, -5.123456"
-url: "red-dragon-cave-pembrokeshire"
-town: "Llanrhystud"
+coordinates: "51.451597933059865, -3.307396962481141"
+url: "tinkinswood"
+town: "St Nicholas"
 layout: layouts/place.html
 permalink: /places/{{ url }}/
 ---
 
-Ogof y Ddraig Goch, translated as Red Dragon’s Cave, is a name associated with a limestone cavern traditionally linked to Welsh dragon mythology. The location is usually identified with a natural cave formation in north Wales, although several sites across the region claim the title. The cave’s association with a red dragon reflects wider national symbolism found in Welsh folklore, heraldry and medieval literature.
+Tinkinswood is known as a chambered tomb, but as with many such buildings, its main purpose has been misidentified. It was not a tomb but a centre for the performance of magic and transport. Tombs such as Tinkinswood are doorways to otherworlds, but via certain otherworld they can provide transport to other portals. This one is linked to nearby Lythans, which puzzles experts because the short distance between them would seem to make walking an easier and faster way to travel.
 
-Folkloric accounts commonly connect the cave to legendary conflicts between dragons, echoing themes found in the medieval tale of Lludd and Llefelys and later adaptations within the Mabinogion tradition. In local narratives, the cave is sometimes described as a resting place or dwelling of a mythical dragon whose presence influenced the surrounding landscape. Although these stories vary considerably, they often emphasise the cave as a place of hidden power, danger or protection depending on regional interpretation.
+Here, the bones of the dead provided payment for travel, but the journey and its purpose remain a mystery. As with many other sites, this is a focus point for energy, and it is possible to experience strong awen here.
 
-Archaeological investigations of caves bearing the name Ogof y Ddraig Goch have produced limited evidence directly related to mythological tradition. Most findings consist of typical cave deposits, natural formations and occasional remnants of historic human activity. Scholars generally regard the dragon association as symbolic rather than literal, arising from oral storytelling and regional identity rather than documented historical events.
+---
+
+### Information
+
+The structure is a dolmen, which was the most common megalithic structure in Europe. The dolmen is of the Severn-Cotswold tomb type, and consists of a large capstone on top, with smaller upright stones supporting it. The limestone capstone at Tinkinswood weighs approximately 40 long tons and measures 24 feet (7.3m) x 14ft (4.3m); it is thought to be the largest in Britain, and also in Europe.
+
+It would have taken some 200 people to lift the stone into the correct position. It was originally all covered by a mound of soil, which has been removed over time. The remaining mound behind the structure measures approximately 130 ft (40m) x 59ft (18m) in size.

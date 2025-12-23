@@ -1,23 +1,24 @@
 ---
-title: "Carreg Lafar (The Speaking Stones)"
+title: "Mynydd y Gaer (Mountain of the Fort)"
 summary: "A mysterious ring of stones in Snowdonia that are said to sing when the mist descends, guiding lost travelers to safety."
-type: "Mystical Site"
-image: "/images/tmp-place-1.webp"
+type: "Watchtower"
+image: "/images/entry-4.webp"
 tags:
   - stones
-  - marine
-  - omens
   - folklore
 category: "Gwynedd"
-coordinates: "53.068865, -4.076475"
-url: "singing-stones-gwynedd"
-town: "Betws-y-Coed"
+coordinates: "51.56212591515584, -3.5083109487068964"
+url: "mynydd-y-gaer"
+town: "Llannefydd"
 layout: layouts/place.html
 permalink: /places/{{ url }}/
 ---
 
-Carreg Lafar, translated as The Speaking Stones, is a name applied in Welsh folklore to one or more groups of standing stones believed to produce audible sounds under certain conditions. Although several prehistoric stone formations in Wales have been identified locally by this name, no definitive single site has been established. The term therefore functions both as a specific place-name in some districts and a wider folkloric category associated with sound-producing megaliths.
+High above Llannefydd, the earth rises into a broken ring of embankments and heather: the ancient watchtower of Mynydd y Gaer, &#8220;the Mountain of the Fort.&#8221; From here the view commands the Elwy valley and the Denbigh Moors, an unbroken sweep of wind, mist, and memory.
 
-Tradition maintains that the stones “speak” during particular moments, often at night, on certain feast days or when the wind moves through surrounding terrain. Recorded accounts typically describe faint murmurs, low vibrations or rhythmic tones rather than articulate speech. Explanations vary from supernatural interpretation to natural acoustic effects caused by wind patterns, temperature changes or the movement of animals around the stones.
+Antiquarian Thomas Pennant wrote that the hill-forts of this ridge &#8220;were thrown up in the wars of Owen Gwynedd against the English king,&#8221; and local lore long held that watch-fires burned from these ramparts to call men to arms.  Warriors in the age of Arthur, then medieval sentinels stood here, and the air still carries the sense of an outpost on the edge of worlds.
 
-The association of sound with standing stones is part of a broader Celtic heritage in which prehistoric monuments are regarded as animated or conscious. Comparable ideas appear in Irish and Scottish folklore. In Wales, the speaking motif is sometimes linked to ancestral spirits, prophetic messages or warnings, although such themes are not consistent across regions.
+These slopes belong to a countryside rich in strange presences. To the west, in Llangernyw, the spirit Angelystor proclaims, each Halloween night, the names of those who will die in the coming year. Across the Denbigh Moors, the Tylwyth Teg rise in drifting lights, and lone horsemen ride on the misty tracks between fort and forest.
+
+Perhaps those who see such things are glimpsing memories older than history: the guardians of the Gaer still keeping their watch.
+There is also a very very seldom seen Roman legion patrolling, but this has been reported only once this century. Local people say the wind on Mynydd y Gaer sometimes sounds like chanting—others hear it as the clash of arms.

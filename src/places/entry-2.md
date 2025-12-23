@@ -1,23 +1,25 @@
 ---
-title: "St. Melangell's Healing Well"
-summary: "A sacred well dedicated to Wales' only female patron saint of animals, renowned for its healing waters and tranquil woodland setting."
-type: "Sacred Well"
-image: "/images/tmp-place-1.webp"
+title: "Cadair Idris"
+summary: The observatory of the giant Idris. Here he sits and observes the stars, and can be sometimes glimpsed on moonlit nights."
+type: "Mountain"
+image: "/images/entry-2.webp"
 tags:
-  - ghosts
-  - marine
-  - omens
-  - folklore
+  - giant
+  - mountain
 category: "Wrexham"
-coordinates: "52.876543, -3.456789"
-url: "st-melangell-healing-well"
-town: "Llanrhystud"
+coordinates: "52.723505371072555, -3.9094162005313593"
+url: "cadair-idris"
+town: "Dolgellau"
 layout: layouts/place.html
 permalink: /places/{{ url }}/
 ---
 
-St Melangell’s Healing Well is a sacred spring associated with the early medieval Welsh saint Melangell, traditionally located near Pennant Melangell in Powys, Wales. The site forms part of a wider landscape linked to the saint’s legend, which centres on themes of protection, sanctuary and healing. Although precise historical details remain limited, the well has been referenced in local tradition for several centuries and continues to be regarded as a place of spiritual significance.
+This is the observatory of the giant Idris. Here he sits and observes the stars, and can be sometimes glimpsed on moonlit nights. If you're driving in from Barmouth, you can sometimes see his head. He has never been known to harm humans, but we advise keeping a respectful distance. This is a very special place, so stand on the slopes, face West and close your eyes. Feel the awen, and create a poem on the spot.
 
-The well is customarily linked to the narrative in which Melangell, a hermit and later abbess, offered refuge to a pursued hare, causing a prince (often named Brochwel) to declare the valley a place of sanctuary. The story became embedded in regional religious identity, and elements of the legend persist in local customs and symbolic associations. The water from the well has long been believed to possess curative properties, particularly for ailments of the body and mind.
+---
 
-The site is situated close to St Melangell’s Church, which contains a noted shrine thought to date in parts to the twelfth century. Pilgrimage to Pennant Melangell was recorded in the medieval period and continued, albeit irregularly, into modern times. References from the eighteenth and nineteenth centuries mention visitors collecting water from the spring and performing devotional practices nearby. The well itself has undergone minor structural changes over time, reflecting both conservation efforts and shifts in visitor access.
+### Information
+
+Cadair Idris is a mountain in the Meirionnydd area of Gwynedd, Wales. It lies at the southern end of the Snowdonia National Park near the town of Dolgellau. The peak, which is one of the most popular in Wales for walkers and hikers, is composed largely of Ordovician igneous rocks, with classic glacial erosion features such as cwms, moraines, striated rocks, and roches moutonnées.
+
+Cadair Idris means &#8216;Idris's Chair.&#8217; Idris is usually taken to be the name of a giant or, alternatively, it may refer to Idris ap Gwyddno (or Gweiddno,) a 7th-century prince of Meirionnydd who won a battle against the Irish on the mountain. Idris ap Gwyddno was in fact referred to as Idris Gawr (&#8216;Idris the Giant&#8217;) in some mediaeval genealogies of Meirionydd.
