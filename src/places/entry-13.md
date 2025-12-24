@@ -6,7 +6,7 @@ image: "/images/entry-13.webp"
 tags:
   - ghosts
   - chamber
-category: "Anglesey"
+category: "North Wales"
 coordinates: "53.336303270961736, -4.462086341385835"
 url: "bedd-branwen"
 town: "Holyhead"

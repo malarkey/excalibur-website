@@ -237,8 +237,8 @@ BASE ELEMENT STYLES
 
 /* HTML base styles */
 /* ================================================
-   REDUCED MOTION — GLOBAL METHODOLOGY
-   ================================================ */
+REDUCED MOTION — GLOBAL METHODOLOGY
+================================================ */
 
 @media (prefers-reduced-motion: reduce) {
 html { scroll-behavior: auto !important; }
@@ -851,6 +851,9 @@ top: 50%;
 transform: translate(-50%, -50%);
 width: 21px; }
 
+.alt-row {
+margin-block-end: var(--spacing-r); }
+
 /* ==========================================================================
 BUTTON COMPONENTS
 ========================================================================== */
@@ -933,27 +936,27 @@ NAVIGATION COMPONENTS
 ========================================================================== */
 
 /* Main navigation */
-nav ul {
+nav > ul {
 display: grid;
 gap: var(--spacing-s);
 grid-template-columns: repeat(2, 1fr);
 color: var(--color-border); }
 
-nav li {
+nav > ul li {
 margin: 0 var(--spacing-s);
 text-align: center; }
 
-nav li:before {
-content: "";
-display: none; }
+nav ul li:before {
+content: "" !important;
+display: none !important; }
 
-nav a,
-nav a:hover,
-nav a:focus { text-decoration: none; }
+nav > ul a,
+nav > ul a:hover,
+nav > ul a:focus { text-decoration: none; }
 
-nav a:not(.btn),
-nav a:not(.btn):visited,
-nav a:not(.btn):hover {
+nav > ul a:not(.btn),
+nav > ul a:not(.btn):visited,
+nav > ul a:not(.btn):hover {
 color: var(--color-text-default);
 display: inline-block;
 font-family: var(--font-family-default-regular);
@@ -1177,11 +1180,12 @@ min-block-size: 12rem;
 resize: vertical;
 transition: min-height .5s ease-in-out; }
 
-nav ul {
+nav > ul {
 align-items: center;
 display: flex;
 flex-wrap: wrap;
 font-size: var(--font-size-l);
+gap: 0;
 justify-content: center;
 padding-block-start: unset; }
 
@@ -1254,17 +1258,7 @@ body { padding-inline: var(--spacing-l); }
 nav li {
 margin: 0; }
 
-nav li:not(:last-of-type):after {
-content: " • ";
-color: var(--color-border);
-display: inline-block;
-font-size: var(--font-size-l);
-line-height: 1;
-margin: 0;
-padding-inline: var(--spacing-r);
-translate: 0 4px; }
-
-nav a:not(.btn)::after {
+nav > ul > li a:not(.btn)::after {
 background-color: var(--color-accent);
 border-radius: 3px;
 bottom: 0;
@@ -1277,11 +1271,11 @@ transform-origin: center;
 transition: transform .5s ease;
 width: 100%; }
 
-nav a:not(.btn):hover::after,
-nav a:not(.btn):focus-visible::after {
+nav > ul > li a:not(.btn):hover::after,
+nav > ul > li a:not(.btn):focus-visible::after {
 transform: translateX(-50%) scaleX(1); }
 
-nav a:not(.btn):focus-visible::after {
+nav > ul > li a:not(.btn):focus-visible::after {
 background-color: var(--color-accent); }
 
 nav:has(a:hover) a:not(.btn):not(:hover) {
@@ -1521,6 +1515,32 @@ font-size: 5cqi;
 margin-block: 0 var(--spacing-r); }
 }
 
+
+
+nav > ul > li {
+position: relative; }
+
+nav > ul > li > ul {
+background-color: var(--color-background-default);
+left: 0;
+opacity: 0;
+position: absolute;
+top: 100%;
+transform: translateY(-10px);
+transition: all 0.3s ease;
+visibility: hidden;
+z-index: 100; }
+
+nav > ul > li > ul li {
+width: 100%; }
+
+/* Show dropdown on hover */
+nav > ul > li:hover > ul {
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+}
+
 /* ==========================================================================
 ACCESSIBILITY: REDUCED MOTION
 ========================================================================== */
@@ -1592,3 +1612,4 @@ color: var(--color-text-default) !important;
 
 [data-theme="dark"] [data-theme="inverted"] a:hover {
 text-decoration-color: var(--color-text-link-hover); }
+

@@ -782,6 +782,160 @@
       "oAP" : "\/dist\/gallery\/index.html",
       "oF" : 0
     },
+    "\/dist\/images\/entry-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 616598,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 792740,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-3.webp" : {
+      "ft" : 8388608,
+      "iS" : 848454,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-4.webp" : {
+      "ft" : 8388608,
+      "iS" : 942698,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 942698,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-6.webp" : {
+      "ft" : 8388608,
+      "iS" : 706812,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-6.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-7.webp" : {
+      "ft" : 8388608,
+      "iS" : 767488,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-8.webp" : {
+      "ft" : 8388608,
+      "iS" : 712878,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-8.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-9.webp" : {
+      "ft" : 8388608,
+      "iS" : 828536,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-9.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-10.webp" : {
+      "ft" : 8388608,
+      "iS" : 729060,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-10.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-11.webp" : {
+      "ft" : 8388608,
+      "iS" : 856820,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-11.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-12.webp" : {
+      "ft" : 8388608,
+      "iS" : 987738,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-12.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-13.webp" : {
+      "ft" : 8388608,
+      "iS" : 942990,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-13.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/entry-14.webp" : {
+      "ft" : 8388608,
+      "iS" : 1093044,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/entry-14.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/home-1.webp" : {
       "ft" : 8388608,
       "iS" : 81214,
@@ -1715,6 +1869,70 @@
       "oAP" : "\/dist\/photos\/photo-5\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/barclodiad-y-gawres\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/barclodiad-y-gawres\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/bedd-branwen\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/bedd-branwen\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/cadair-idris\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/cadair-idris\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/Cantre-gwaelod\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/Cantre-gwaelod\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/castell-aberlleiniog\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/castell-aberlleiniog\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/castell-sycharth\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/castell-sycharth\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/castell-y-bere\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/castell-y-bere\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/category\/anglesey\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/anglesey\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/category\/carmarthenshire\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1731,12 +1949,52 @@
       "oAP" : "\/dist\/places\/category\/gwynedd\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/category\/herefordshire\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/herefordshire\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/category\/montgomeryshire\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/montgomeryshire\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/category\/powys\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/powys\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/category\/wrexham\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/category\/wrexham\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/cefnllys\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/cefnllys\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/craig-yr-aderyn\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/craig-yr-aderyn\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/entry-1\/index.html" : {
@@ -1779,12 +2037,52 @@
       "oAP" : "\/dist\/places\/entry-5\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/ffynnon-elian\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/ffynnon-elian\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/hergest-court\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/hergest-court\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/llyn-cau\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/llyn-cau\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/mynydd-y-gaer\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/mynydd-y-gaer\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/phantom-lights-carmarthen-bay\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/phantom-lights-carmarthen-bay\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/radnor-forest\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/radnor-forest\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/red-dragon-cave-pembrokeshire\/index.html" : {
@@ -1843,12 +2141,28 @@
       "oAP" : "\/dist\/places\/tag\/burial\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/tag\/castle\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/castle\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/tag\/celestial\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/tag\/celestial\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/tag\/chamber\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/chamber\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/tag\/christian\/index.html" : {
@@ -1899,12 +2213,36 @@
       "oAP" : "\/dist\/places\/tag\/ghosts\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/tag\/giant\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/giant\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/tag\/haunted\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/haunted\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/tag\/healing\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/tag\/healing\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/tag\/lake\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/lake\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/tag\/lights\/index.html" : {
@@ -1945,6 +2283,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/tag\/mist\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/tag\/mountain\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tag\/mountain\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/tag\/music\/index.html" : {
@@ -2011,12 +2357,92 @@
       "oAP" : "\/dist\/places\/tag\/weather\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/tinkinswood\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/tinkinswood\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/beaumaris\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/beaumaris\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/town\/betws-y-coed\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/town\/betws-y-coed\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/cader-idris\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/cader-idris\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/colwyn-bay\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/colwyn-bay\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/dolgellau\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/dolgellau\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/holyhead\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/holyhead\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/kington\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/kington\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/llandrindod-wells\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/llandrindod-wells\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/llanfihangel-y-pennant\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/llanfihangel-y-pennant\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/llannefydd\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/llannefydd\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/town\/llanrhystud\/index.html" : {
@@ -2027,12 +2453,28 @@
       "oAP" : "\/dist\/places\/town\/llanrhystud\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/town\/llansilin\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/llansilin\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/town\/rhosneigr\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/town\/rhosneigr\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/town\/st-nicholas\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/town\/st-nicholas\/index.html",
       "oF" : 0
     },
     "\/dist\/privacy\/index.html" : {
@@ -3223,6 +3665,160 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/src\/images\/entry-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 616598,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 792740,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-3.webp" : {
+      "ft" : 8388608,
+      "iS" : 848454,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-4.webp" : {
+      "ft" : 8388608,
+      "iS" : 942698,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 942698,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-6.webp" : {
+      "ft" : 8388608,
+      "iS" : 706812,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-6.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-7.webp" : {
+      "ft" : 8388608,
+      "iS" : 767488,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-8.webp" : {
+      "ft" : 8388608,
+      "iS" : 712878,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-8.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-9.webp" : {
+      "ft" : 8388608,
+      "iS" : 828536,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-9.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-10.webp" : {
+      "ft" : 8388608,
+      "iS" : 729060,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-10.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-11.webp" : {
+      "ft" : 8388608,
+      "iS" : 856820,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-11.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-12.webp" : {
+      "ft" : 8388608,
+      "iS" : 987738,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-12.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-13.webp" : {
+      "ft" : 8388608,
+      "iS" : 942990,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-13.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/entry-14.webp" : {
+      "ft" : 8388608,
+      "iS" : 1093044,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/entry-14.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/icon-bluesky.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4009,6 +4605,177 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/places\/entry-5.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-6.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-6.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-7.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-7.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-8.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-8.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-9.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-9.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-10.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-10.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-11.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-11.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-12.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-12.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-13.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-13.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/places\/entry-14.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/places\/entry-14.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

@@ -6,7 +6,7 @@ image: "/images/entry-6.webp"
 tags:
   - haunted
   - folklore
-category: "Herefordshire"
+category: "Mid Wales"
 coordinates: "52.19205938033559, -3.053135066145993"
 url: "hergest-court"
 town: "Kington"

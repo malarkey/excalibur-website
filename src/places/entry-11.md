@@ -6,7 +6,7 @@ image: "/images/entry-11.webp"
 tags:
   - lake
   - folklore
-category: "Gwynedd"
+category: "North Wales"
 coordinates: "52.69351387210708, -3.9024814716755474"
 url: "llyn-cau"
 town: "Dolgellau"

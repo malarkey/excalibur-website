@@ -2,7 +2,7 @@
 
 {% if place.data.image %}
 <figure>
-<img src="{{ place.data.image }}" alt="{{ place.data.title }}" loading="lazy">
+<a href="{{ place.url }}"><img src="{{ place.data.image }}" alt="{{ place.data.title }}" loading="lazy"></a>
 </figure>
 {% endif %}
 

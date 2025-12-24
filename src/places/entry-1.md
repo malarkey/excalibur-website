@@ -5,7 +5,7 @@ type: "Burial chamber"
 image: "/images/entry-1.webp"
 tags:
   - burial
-category: "Anglesey"
+category: "North Wales"
 coordinates: "53.3184597, -3.3910091"
 url: "barclodiad-y-gawres"
 town: "Rhosneigr"

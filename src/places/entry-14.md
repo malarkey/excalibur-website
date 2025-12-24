@@ -6,7 +6,7 @@ image: "/images/entry-14.webp"
 tags:
   - marine
   - folklore
-category: "Gwynedd"
+category: "North Wales"
 coordinates:
 url: "Cantre-gwaelod"
 town: "Dolgellau"

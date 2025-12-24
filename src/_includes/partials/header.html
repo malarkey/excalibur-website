@@ -9,6 +9,16 @@
 {% for item in navigation.items %}
 <li><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
 {% endfor %}
+
+<li>
+<a href="javascript:void(0)">Shop</a>
+<ul>
+<li><a href="https://purplemoose.co.uk/products/excalibeer-500ml-bottles">Excalibeer</a></li>
+<li><a href="https://mountainmead.co.uk/collections/frontpage/products/excalibur-film-arthur">Mead</a></li>
+<li><a href="javascript:void(0)">Welshcakes</a></li>
+</ul>
+</li>
+
 </ul>
 </nav>
 

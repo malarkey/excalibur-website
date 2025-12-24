@@ -5,7 +5,7 @@ type: "Castle"
 image: "/images/entry-7.webp"
 tags:
   - castle
-category: "Gwynedd"
+category: "North Wales"
 coordinates: "52.6585130423498, -3.970218487548127"
 url: "castell-y-bere"
 town: "Dolgellau"

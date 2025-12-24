@@ -5,7 +5,7 @@ type: "Hillfort"
 image: "/images/entry-10.webp"
 tags:
   - folklore
-category: "Gwynedd"
+category: "North Wales"
 coordinates: "52.64330307213135, -4.004557556860717"
 url: "craig-yr-aderyn"
 town: "Llanfihangel-y-Pennant"

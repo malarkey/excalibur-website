@@ -6,7 +6,7 @@ image: "/images/entry-8.webp"
 tags:
   - castle
   - folklore
-category: "Montgomeryshire"
+category: "South Wales"
 coordinates: "52.82461446788506, -3.180091397326655"
 url: "castell-sycharth"
 town: "Llansilin"

@@ -24,8 +24,6 @@
 <a href="/mythic-wales"><img src="/images/map-regions-small.svg" alt="Mythic Wales map"></a>
 </figure>
 
-<p><a href="#section-share" class="btn">Share your story</a></p>
-
 <hr data-function="spacer">
 
 <h2>More areas</h2>
@@ -69,7 +67,7 @@
 {% set categoryStories = collections.stories | storiesByCategory(category) %}
 
 {% if categoryStories.length > 0 %}
-<h2 data-size="3xl">Stories from {{ category }}</h2>
+<h2 data-size="3xl">Tales from {{ category }}</h2>
 
 {% for story in categoryStories | limit(6) %}
 <article class="item-story">
@@ -99,14 +97,17 @@ About: <a href="{{ storyPlace.url }}">{{ storyPlace.data.title }}</a>
 {% endif %}
 
 {% else %}
-<h2>No stories yet from {{ category }}</h2>
-<p>Be the first to share your experience in this area!</p>
+<h2>No Tales yet from {{ category }}</h2>
+<p>Be the first to share your tale in this area!</p>
 {% endif %}
 </div><!-- one -->
 
 <div id="section-share">
-<h2>Share your {{ category }} story</h2>
-<p>Have you visited a mystic location in {{ category }}? Share your story.</p>
+<h2>Share your {{ category }} tale</h2>
+<p>Have you visited a mystic location in {{ category }} or remember a local tale? Film a friend or relative telling the old tales
+(in Cymraeg or English) and share with us.</p>
+
+<hr data-function="spacer">
 
 <form action="/api/submit-story" method="POST" enctype="multipart/form-data" class="story-form">
 <input type="hidden" name="category" value="{{ category }}">
@@ -123,36 +124,33 @@ About: <a href="{{ storyPlace.url }}">{{ storyPlace.data.title }}</a>
 </select>
 </div>
 
-<div data-layout="flex">
-
 <div>
+
+<div class="alt-row">
 <label for="author">Name</label>
 <input type="text" name="author" id="author">
-</div><!-- one -->
+</div><!-- row -->
 
-<div>
-<label for="authorLocation">Your location</label>
-<input type="text" name="authorLocation" id="authorLocation">
-</div><!-- two -->
-
-</div><!-- layout -->
-
-<div>
+<div class="alt-row">
 <label for="email">Email <span>(won&#8217;t be published)</span></label>
 <input type="email" id="email" name="email">
+</div><!-- row -->
+
 </div>
 
 <hr>
 
+<!--
 <div>
 <label for="visitDate">Visit date</label>
 <input type="date" id="visitDate" name="visitDate">
 </div>
 
 <hr>
+-->
 
 <div>
-<label for="title">Story title</label>
+<label for="title">Title</label>
 <input type="text" id="title" name="title" required>
 </div>
 
@@ -162,7 +160,7 @@ About: <a href="{{ storyPlace.url }}">{{ storyPlace.data.title }}</a>
 </div>
 
 <div>
-<label for="content">Your story</label>
+<label for="content">Your tale</label>
 <textarea id="content" name="content" required></textarea>
 </div>
 
@@ -194,7 +192,7 @@ About: <a href="{{ storyPlace.url }}">{{ storyPlace.data.title }}</a>
 
 <div>
 <label for="tags">Tags <span>(comma-separated)</span></label>
-<small>Help others find similar stories</small>
+<small>Help others find similar tales</small>
 </div><!-- one -->
 
 <div>
@@ -210,16 +208,16 @@ About: <a href="{{ storyPlace.url }}">{{ storyPlace.data.title }}</a>
 <input type="checkbox" name="consent" id="consent" checked>
 <label for="consent"></label>
 </div><!-- alt-checkbox -->
-<p>I agree to my story being published</p>
+<p>I agree to my tale being published</p>
 </div><!-- alt-label -->
 
 <div data-layout="flex">
 <div>
-<small>Stories are moderated before publication. You&#8217;ll receive an email when your story is live.</small>
+<small>Tales are moderated before publication.</small>
 </div><!-- one -->
 
 <div>
-<button type="submit" class="btn">Share your story</button>
+<button type="submit" class="btn">Share your tale</button>
 </div><!-- two -->
 
 </div><!-- layout -->

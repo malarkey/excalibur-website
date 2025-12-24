@@ -6,7 +6,7 @@ image: "/images/entry-2.webp"
 tags:
   - giant
   - mountain
-category: "Wrexham"
+category: "North Wales"
 coordinates: "52.723505371072555, -3.9094162005313593"
 url: "cadair-idris"
 town: "Dolgellau"

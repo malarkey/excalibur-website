@@ -6,7 +6,7 @@ image: "/images/entry-9.webp"
 tags:
   - dragon
   - folklore
-category: "Powys"
+category: "South Wales"
 coordinates: "52.28461884804274, -3.1627474265496516"
 url: "radnor-forest"
 town: "Kington"

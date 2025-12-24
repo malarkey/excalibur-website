@@ -6,7 +6,7 @@ image: "/images/entry-12.webp"
 tags:
   - castle
   - folklore
-category: "Anglesey"
+category: "North Wales"
 coordinates: "53.29267827913782, -4.0765268126453898"
 url: "castell-aberlleiniog"
 town: "Beaumaris"

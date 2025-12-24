@@ -5,7 +5,7 @@ type: "Mythic place"
 image: "/images/entry-5.webp"
 tags:
   - folklore
-category: "Carmarthenshire"
+category: "West Wales"
 coordinates: "52.2713462518479, -3.3071090395755434"
 url: "cefnllys"
 town: "Llandrindod Wells"

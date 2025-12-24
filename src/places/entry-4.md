@@ -6,7 +6,7 @@ image: "/images/entry-4.webp"
 tags:
   - stones
   - folklore
-category: "Gwynedd"
+category: "North Wales"
 coordinates: "51.56212591515584, -3.5083109487068964"
 url: "mynydd-y-gaer"
 town: "Llannefydd"

@@ -5,7 +5,7 @@ type: "Burial chamber"
 image: "/images/entry-3.webp"
 tags:
   - burial
-category: "Wrexham"
+category: "South Wales"
 coordinates: "51.451597933059865, -3.307396962481141"
 url: "tinkinswood"
 town: "St Nicholas"

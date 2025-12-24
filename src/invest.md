@@ -15,22 +15,63 @@ aside: |
 
 <p class="alt-lede">Investment in Excalibur and help make this film a reality.</p>
 
-<h2>Own a piece of cinema history</h2>
+<small>Due to SEIS/EIS limits, available allocation is finite.</small>
 
-<p>Investors are buying shares in Secret Planet Ltd., not just the Excalibur film. This includes, retail partnerships, merchandise, RPG game, cyfangreu consultancy, and other Excalibur-related franchise activities.</p>
+<p>Excalibur is being developed as a revenue-generating Welsh IP company, with a feature film as the capstone asset. Secret Planet Ltd is currently raising £1.65m under SEIS / EIS to scale its IP stack and unlock a £13m feature film. This information is for potential investors to register interest and request further details.</p>
+
+<hr data-function="spacer">
+
+<div data-layout="flex">
+
+<div>
+<h2>The investment</h2>
 
 <ul class="alt-">
-<li>SEIS provides up to 50% income tax relief on qualifying investments</li>
-<li>EIS provides up to 30% income tax relief, with additional potential reliefs</li>
-<li>We have advance assurance from HMRC for SEIS and EIS</li>
+<li>Equity in Secret Planet Ltd.</li>
+<li>SEIS / EIS eligible</li>
+<li>Raising: £1.65m</li>
+<li>Status: Limited allocation</li>
 </ul>
 
-<hr>
+<p data-size="s">Investors receive exposure to the entire Excalibur IP ecosystem.</p>
+</div><!-- one -->
 
-<p style="margin-block-start:var(--spacing-l);"><a href="/contact/" class="btn">Contact us to invest</a></p>
+<div>
+<h2>Available to</h2>
+
+<ul class="alt-" data-size="s">
+<li>High net worth individuals</li>
+<li>Self-certified sophisticated investors</li>
+<li>Professional Investors</li>
+</ul>
+
+<p data-size="s">We&#8221;ll confirm your eligibility before sending further information.</p>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+
+
+
+
+
+
+<div data-layout="flex">
+
+<div>
+<h2>Register your interest</h2>
+<p>To request an investor deck or discuss allocation availability.</p>
+</div><!-- one -->
+
+<div>
+<p style="margin-block-start:var(--spacing-l);"><a href="/contact/" class="btn">Register your interest</a></p>
+</div><!-- two -->
+
+</div><!-- layout -->
 
 <hr data-function="spacer">
 
 <h3>Important</h3>
 
-<small>This page provides general information only. Any investment in Secret Planet Ltd. can only be made on the basis of our full, FCA-compliant documentation. Capital at risk. Early-stage companies may fail, and you could lose the entire amount invested. Eligibility depends on individual circumstances and is not guaranteed. Full details will be provided in the authorised investment documents. Nothing on this page is a financial promotion or an offer to invest.</small>
+<small>Registering interest does not constitute an offer or commitment. All investments carry risk and you may lose some or all of your capital.
+Tax reliefs depend on individual circumstances and are not guaranteed. Investment materials are available only to eligible investors.</small>
