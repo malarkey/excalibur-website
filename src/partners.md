@@ -15,19 +15,23 @@ aside: |
 
 <p class="alt-lede">Wales&#8217; finest businesses, united behind our shared mythology</p>
 
-<p>The Excalibur Alliance brings together exceptional Welsh companies who are helping bring authentic Arthurian legend back to its true homeland. Each Alliance partner has created distinctive products inspired by Excalibur, the pioneering Welsh fantasy film that&#8217;s reclaiming fantasy for Wales. From craft breweries to mead-makers, from artisan producers to cultural experiences, Alliance members represent the best of what Wales creates. These aren&#8217;t licensing deals, they&#8217;re partnerships with businesses who understand that Arthur&#8217;s story belongs here, in the landscapes where it was born.</p>
+<p>The Excalibur Alliance brings together exceptional Welsh companies who are helping to bring authentic Arthurian legend back to its true homeland. Each Alliance partner has created distinctive products inspired by Excalibur, the pioneering Welsh fantasy film that&#8217;s reclaiming fantasy for Wales. From craft breweries to mead-makers, from artisan producers to cultural experiences, Alliance members represent the best of what Wales creates. These aren&#8217;t licensing deals, they&#8217;re partnerships with businesses who understand that Arthur&#8217;s story belongs here, in the landscapes where it was born.</p>
 
 <hr data-function="spacer">
 
 <div data-layout="flex">
 
 <div>
+<img src="/images/img-partner-product-1.webp" alt="">
+
 <h2>Our partners</h2>
 
 <p data-size="s">Alliance members have already created products including Excalibeer (Purple Moose Brewery), Medd Arthur (Mountain Mead), and distinctive merchandise that celebrates Welsh heritage and mythology. Each partnership generates revenue that flows directly into film development while building Wales&#8217; reputation as the true homeland of fantasy.</p>
 </div><!-- one -->
 
 <div>
+<img src="/images/img-partner-product-2.webp" alt="">
+
 <h2>The alliance difference</h2>
 
 <p data-size="s">Alliance partners are genuine collaborators in a cultural movement and are businesses who see value in reclaiming our mythology. They benefit from association with a major film production, distinctive product lines, and connection to Wales&#8217; growing fantasy tourism sector. Partners gain marketing support, cross-promotion within the Alliance, and association with a Wales-backed production.</p>
@@ -60,5 +64,3 @@ aside: |
 <div><a href="http://www.kingarthurslabyrinth.co.uk"><img src="/images/tmp-advert-4.webp" alt=""></a></div>
 <div><a href="https://stuffandnonsense.co.uk"><img src="/images/tmp-advert-5.webp" alt=""></a></div>
 </div><!-- layout -->
-
-<small>The Excalibur Alliance supports the development of Excalibur, a Secret Planet Ltd. production.</small>

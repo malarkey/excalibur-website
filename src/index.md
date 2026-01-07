@@ -4,7 +4,6 @@ metaDesc:
 title: Excalibur film
 
 main: |
- <p class="alt-lede">Take courage. Look to the West. A king will come</p>
 
  <p>We&#8217;re bringing fantasy home with a new feature film from Wales. <a href="/contact">Join us</a>.</p>
 

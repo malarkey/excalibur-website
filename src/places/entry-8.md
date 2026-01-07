@@ -23,12 +23,3 @@ The Comet of 1402 blazed across the heavens—a celestial herald visible to all,
 But know this: he did not die. The prophecy remains unbroken. Glyndŵr sleeps—waiting, watching—until Wales faces another hour of direst need. Then shall he rise again, the Once and Future Prince, to deliver his people.
 
 ---
-
-### Information
-
-Sycharth was a motte and bailey castle near Llansilin, Powys, Wales. Until 1996 Sycharth was in the historic county of Denbighshire, but was then transferred to the Shire area of Montgomeryshire within Powys.
-
-Sycharth sits in the valley of the river Cynllaith, a tributary of the Afon Tanat. The site of Owain Glyndŵr’s manor house lies about a kilometre to the west of the boundary between England and Wales with a belt of woodland on the higher ground to the east known as Parc Sycharth.
-
-
-

@@ -19,7 +19,3 @@ The ruins of Cantre'r Gwaelod have never been filmed or photographed. This could
 Some irresponsible fishermen run illicit ferry services, but these are not recommended. Artist Samuel Alvarez painted this image of the ruins on what had been a sunny day, but as his fishing boat approached, it entered a gloomy mist.
 
 ---
-
-### Information
-
-Cantre'r Gwaelod (pronounced cantra g-why-lod) is a legendary sunken kingdom in Welsh folklore, a fertile land once in Cardigan Bay, West Wales, that was lost to the sea, with tales attributing its drowning to a drunken watchman (Seithennyn) or a priestess (Mererid) failing to close the sea gates during a storm. It's a classic Welsh myth of a lost paradise, sometimes linked to real drowned lands after the Ice Age, and people claim to hear its flood bells ringing on stormy nights.

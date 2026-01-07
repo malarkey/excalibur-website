@@ -13,9 +13,7 @@ aside: |
 
 ---
 
-<p class="alt-lede">Investment in Excalibur and help make this film a reality.</p>
-
-<small>Due to SEIS/EIS limits, available allocation is finite.</small>
+<small>Due to SEIS/EIS limits, available allocation is finite. <a href="mailto:dan@secretplanet.co.uk">Email dan@secretplanet.co.uk</a></small>
 
 <p>Excalibur is being developed as a revenue-generating Welsh IP company, with a feature film as the capstone asset. Secret Planet Ltd is currently raising £1.65m under SEIS / EIS to scale its IP stack and unlock a £13m feature film. This information is for potential investors to register interest and request further details.</p>
 
@@ -54,24 +52,18 @@ aside: |
 
 
 
-
+<hr>
 
 <div data-layout="flex">
 
 <div>
-<h2>Register your interest</h2>
-<p>To request an investor deck or discuss allocation availability.</p>
+<h3>Request an investor deck or discuss allocation availability</h3>
 </div><!-- one -->
 
 <div>
-<p style="margin-block-start:var(--spacing-l);"><a href="/contact/" class="btn">Register your interest</a></p>
+<p style="margin-block-start:var(--spacing-l);"><a href="mailto:dan@secretplanet.co.uk" class="btn">Contact us</a></p>
 </div><!-- two -->
 
 </div><!-- layout -->
 
-<hr data-function="spacer">
-
-<h3>Important</h3>
-
-<small>Registering interest does not constitute an offer or commitment. All investments carry risk and you may lose some or all of your capital.
-Tax reliefs depend on individual circumstances and are not guaranteed. Investment materials are available only to eligible investors.</small>
+<small><b>Important</b> Registering interest does not constitute an offer or commitment. All investments carry risk and you may lose some or all of your capital. Tax reliefs depend on individual circumstances and are not guaranteed. Investment materials are available only to eligible investors.</small>

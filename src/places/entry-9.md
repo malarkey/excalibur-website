@@ -24,9 +24,5 @@ The dragon is currently kept in hibernation by the ring held by the four churche
 
 ---
 
-### Information
-
-Radnor Forest (Welsh: Fforest Clud) is a rock dome composed of Silurian shales, mudstones and limestone in the historic county of Radnorshire, Powys, Mid Wales. It is a forest in the medieval sense of the word (an area of land set aside for hunting). It lies within the Welsh Marches region since Offa&#8221;s Dyke lies nearby to the east.
-
 
 

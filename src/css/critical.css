@@ -686,6 +686,20 @@ video {
 border-radius: var(--border-radius-r);
 margin-bottom: var(--spacing-r); }
 
+@media screen and (min-width: 48em) {
+
+[data-float="l"] {
+float: inline-start;
+inline-size: unset;
+margin-inline-end: var(--spacing-s); }
+
+[data-float="r"] {
+float: inline-end;
+inline-size: unset;
+margin-inline-start: var(--spacing-s); }
+
+}
+
 .img-detail path {
 fill: var(--color-accent); }
 

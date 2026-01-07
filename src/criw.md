@@ -1,5 +1,5 @@
 ---
-title: "Join Y Criw"
+title: "Join the Criw"
 layout: layouts/page.html
 permalink: /criw/
 
@@ -17,6 +17,8 @@ aside: |
 
 <p>Excalibur is Wales&#8217;s most ambitious fantasy film and Criw members get exclusive behind-the-scenes access. Watch the authentic Arthurian legend come to the big screen, right from the first drafts of the script.</p>
 
+<img src="/images/img-product-criw-shirt.webp" alt="Exclusive Excalibur Criw t-shirt" style="width:280px !important;" data-float="r">
+
 <h3>Join Y Criw and receive</h3>
 
 <ul class="alt-">
@@ -28,19 +30,9 @@ aside: |
 <li>First access to merchandise, partner discounts, and premiere tickets</li>
 </ul>
 
-<hr>
-
-<div data-layout="flex" style="align-items:center;">
-
-<div>
-<h3>Be a founding member</h3>
-<p>Become one of the first <b>100</b> Y Criw founding members and you&#8217;ll also receive a limited edition sticker pack.</p>
-</div>
+<hr data-function="spacer">
 
 <div data-align-h="center">
-<p>&#163;5 per month. Cancel anytime.</p>
-<p style="margin-block:var(--spacing-l);"><a href="/contact/" class="btn">Join Y Criw</a></p>
-<p data-size="xs">Only 20 founding members remaining.</p>
-</div>
-
-</div><!-- layout -->
+<p><a href="/contact/" class="btn">Join the Criw</a></p>
+<small>&#163;5 per month. Cancel anytime.</small>
+</div><!-- align -->

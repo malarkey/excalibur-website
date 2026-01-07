@@ -19,10 +19,3 @@ We know that King Arthur dragged a creature here to keep it from marauding the t
 Professor Llewellyn’s expedition of 1902 demonstrated that Llyn Cau has no bottom, and so it would have been the ideal place to imprison a dragon in the time of King Arthur.
 
 ---
-
-### Information
-
-A huge, dramatic glacial cwm in the crater of Cadair Idris set beneath 400m high mountain walls. It’s a 350m ascent up from the car park, past numerous falls and pools, so even if the lake is cold you’ll be warm when you arrive.
-
-
-

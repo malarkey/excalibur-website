@@ -12,6 +12,6 @@ main: |
 
   <hr>
 
-  <p>Explore Mythic Wales, tell your tales, and help us us preserve the myths and stories of Wales.</p>
+  <p>Explore Mythic Wales and help us preserve the old tales by telling a tale, or recording a great Welsh storyteller.</p>
 
 pullQuote: |

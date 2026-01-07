@@ -7,7 +7,7 @@
       "uuidString" : "9C319833-A357-4A4F-9C0B-01E30250E7DA"
     }
   ],
-  "creatorBuild" : "34704",
+  "creatorBuild" : "34892",
   "files" : {
     "\/.eleventy.js" : {
       "bF" : 0,
@@ -384,6 +384,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/contribute\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/criw\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/criw\/index.html",
       "oF" : 0
     },
     "\/dist\/css\/critical.css" : {
@@ -1957,6 +1965,14 @@
       "oAP" : "\/dist\/places\/category\/herefordshire\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/category\/mid-wales\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/mid-wales\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/category\/montgomeryshire\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1965,12 +1981,36 @@
       "oAP" : "\/dist\/places\/category\/montgomeryshire\/index.html",
       "oF" : 0
     },
+    "\/dist\/places\/category\/north-wales\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/north-wales\/index.html",
+      "oF" : 0
+    },
     "\/dist\/places\/category\/powys\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/places\/category\/powys\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/category\/south-wales\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/south-wales\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/places\/category\/west-wales\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/places\/category\/west-wales\/index.html",
       "oF" : 0
     },
     "\/dist\/places\/category\/wrexham\/index.html" : {
@@ -3401,6 +3441,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/src\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/contact.html",
+      "oF" : 0
+    },
     "\/src\/contact.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3431,6 +3479,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/contribute.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/criw.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/criw.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -4415,6 +4482,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/mythic-wales.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/partners.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/partners.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -6191,6 +6277,9 @@
         "active" : 0,
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
+      "no-unassigned-vars" : {
+        "active" : 0
+      },
       "no-undef" : {
         "active" : 1,
         "optionString" : "{'typeof': false}"
@@ -6271,7 +6360,8 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowRegexCharacters': []}"
       },
       "no-useless-rename" : {
         "active" : 0,
