@@ -1234,6 +1234,39 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/dist\/images\/img-partner-product-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 37794,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-partner-product-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-partner-product-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 47296,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-partner-product-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-product-criw-shirt.webp" : {
+      "ft" : 8388608,
+      "iS" : 91106,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-product-criw-shirt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/img-pullquote.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1413,6 +1446,16 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/dist\/images\/logo-index.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/logo-index.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dist\/images\/logo.svg" : {
       "ft" : 2097152,
@@ -3298,6 +3341,14 @@
       "oAP" : "\/src\/_includes\/partials\/logo-footer.njk",
       "oF" : 0
     },
+    "\/src\/_includes\/partials\/logo-index.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/logo-index.njk",
+      "oF" : 0
+    },
     "\/src\/_includes\/partials\/meta.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3440,14 +3491,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/src\/contact.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/contact.html",
-      "oF" : 0
     },
     "\/src\/contact.md" : {
       "cB" : 0,
@@ -4063,6 +4106,39 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/src\/images\/img-partner-product-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 37794,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-partner-product-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-partner-product-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 47296,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-partner-product-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-product-criw-shirt.webp" : {
+      "ft" : 8388608,
+      "iS" : 91106,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-product-criw-shirt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/img-pullquote.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4231,6 +4307,16 @@
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/src\/images\/logo-index.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/logo-index.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/src\/images\/logo.svg" : {
       "ft" : 2097152,
