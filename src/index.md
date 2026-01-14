@@ -8,7 +8,7 @@ main: >-
   nation. <a href="/contact">Join us!</a>.</p>
 
 
-  <p style="margin-block-start:var(--spacing-l);"><a href="/about/" class="btn" data-variant="s">Learn more</a> &nbsp;or&nbsp; <a href="#" class="btn" data-variant="s">Get our newsletter</a></p>
+  <p style="margin-block-start:var(--spacing-l);"><a href="#" class="btn" data-variant="s">Get our newsletter</a></p>
 aside1: >
   <h2 data-size="2xl">Watch the teaser</h2>
 
