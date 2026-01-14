@@ -52,6 +52,32 @@
 
 
 
+<h2><a href="/blog">News</a></h2>
+
+<div data-content="posts">
+{% set postListItems = collections.blog | limit(4) %}
+
+{% for item in postListItems %}
+<article class="item-post">
+
+<div class="alt-bordered">
+<small class="item-meta">{{ item.data.postDate | dateFilter('d MMM yyyy') }}</small>
+</div><!-- alt-bordered -->
+
+<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+<p>{{ item.data.postSummary }}</p>
+</article>
+{% endfor %}
+
+</div><!-- posts -->
+
+{% endblock %}
+
+
+
+
+<hr data-function="spacer">
+
 <h2>Visit Mythic Wales</h2>
 
 <div data-layout="flex" data-border="r">
@@ -82,30 +108,6 @@
 <div><a href="https://stuffandnonsense.co.uk"><img src="/images/tmp-advert-5.webp" alt=""></a></div>
 </div><!-- layout -->
 
-
-
-<hr data-function="spacer">
-
-<h2><a href="/blog">News</a></h2>
-
-<div data-content="posts">
-{% set postListItems = collections.blog | limit(4) %}
-
-{% for item in postListItems %}
-<article class="item-post">
-
-<div class="alt-bordered">
-<small class="item-meta">{{ item.data.postDate | dateFilter('d MMM yyyy') }}</small>
-</div><!-- alt-bordered -->
-
-<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
-<p>{{ item.data.postSummary }}</p>
-</article>
-{% endfor %}
-
-</div><!-- posts -->
-
-{% endblock %}
 
 {% include "partials/footer.html" %}
 </body>

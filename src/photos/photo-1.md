@@ -1,13 +1,13 @@
 ---
-title: "Ma'alul: The Catholic Church of Ma'alul"
+title: ""
 image: tmp-img-4.webp
-imageCaption: "Ma'alul: The Catholic Church of Ma'alul"
-photographer: "Arab News"
-location: "Palestine"
+imageCaption: ""
+photographer: "Andy Clarke"
+location: "Wales"
 date: 2024-03-15T17:30:00.000Z
-categories: ["Photos", "History"]
-tags: ["Photos", "History"]
+categories: ["Photos", "Location"]
+tags: ["Photos", "Location"]
 layout: "layouts/photo.html"
 ---
 
-Ma'alul, The Catholic Church of Ma'alul—and together with a Greek Orthodox Church and a mosque—is what remains of the ancient Arab village of Ma'alul, just a few kilometers west of Nazareth. It was formed mainly by Christian Palestinians until 1948 when it was destroyed during the 1947–1949 Palestine war.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

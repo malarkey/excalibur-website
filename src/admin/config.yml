@@ -4,23 +4,9 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "src/images"
 public_folder: "/images"
+display_url: "https://excalibur-website.netlify.app"
 
 collections:
-
-  - name: "team"
-    label: "Team Members"
-    folder: "src/team"
-    create: true
-    slug: "{{slug}}"
-    fields:
-    - {label: "Name", name: "name", widget: "string"}
-    - {label: "Order", name: "order", widget: "number", value_type: "int"}
-    - {label: "Role", name: "role", widget: "string"}
-    - {label: "Image", name: "image", widget: "image", required: false}
-    - {label: "Background Image", name: "imageBg", widget: "string", hint: "e.g., icon-monster-2.svg", required: false}
-    - {label: "Summary", name: "summary", widget: "text"}
-    - {label: "Website URL", name: "url", widget: "string", required: false}
-    - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/member.html"}
 
   - name: "faqs"
     label: "FAQs"
@@ -28,10 +14,112 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Question", name: "title", widget: "string"}
-      - {label: "Answer", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "list", default: ["general"]}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Contact", value: "contact" }
+          - { label: "General", value: "general" }
+          - { label: "Technical", value: "technical" }
+          - { label: "Booking", value: "booking" }
+          - { label: "Pricing", value: "pricing" }
+        required: false
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "photos"
+    label: "Photos"
+    folder: "src/photos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageCaption", widget: "string", required: false }
+      - { label: "Photographer", name: "photographer", widget: "string", default: "Andy Clarke" }
+      - { label: "Location", name: "location", widget: "string", default: "Wales" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Photos", value: "Photos" }
+          - { label: "Location", value: "Location" }
+          - { label: "People", value: "People" }
+          - { label: "Nature", value: "Nature" }
+          - { label: "Architecture", value: "Architecture" }
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Photos", value: "Photos" }
+          - { label: "Location", value: "Location" }
+          - { label: "Landscape", value: "Landscape" }
+          - { label: "Portrait", value: "Portrait" }
+          - { label: "Urban", value: "Urban" }
+          - { label: "Rural", value: "Rural" }
+        required: false
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/photo.html" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "places"
+    label: "Places"
+    folder: "src/places"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "url"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "Burial chamber", value: "Burial chamber" }
+          - { label: "Standing stone", value: "Standing stone" }
+          - { label: "Stone circle", value: "Stone circle" }
+          - { label: "Hillfort", value: "Hillfort" }
+          - { label: "Castle", value: "Castle" }
+          - { label: "Church", value: "Church" }
+          - { label: "Natural feature", value: "Natural feature" }
+          - { label: "Museum", value: "Museum" }
+          - { label: "Historic site", value: "Historic site" }
+        required: false
+      - { label: "Image", name: "image", widget: "image" }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Burial", value: "burial" }
+          - { label: "Archaeological", value: "archaeological" }
+          - { label: "Historic", value: "historic" }
+          - { label: "Natural", value: "natural" }
+          - { label: "Religious", value: "religious" }
+          - { label: "Coastal", value: "coastal" }
+          - { label: "Mountain", value: "mountain" }
+          - { label: "Forest", value: "forest" }
+        required: false
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "North Wales", value: "North Wales" }
+          - { label: "South Wales", value: "South Wales" }
+          - { label: "Mid Wales", value: "Mid Wales" }
+          - { label: "West Wales", value: "West Wales" }
+          - { label: "Borderlands", value: "Borderlands" }
+        required: false
+      - { label: "Coordinates", name: "coordinates", widget: "string", required: false, hint: "Format: latitude,longitude (e.g., 53.3184597, -3.3910091)" }
+      - { label: "URL Slug", name: "url", widget: "string", pattern: ["^[a-z0-9-]+$", "Must be lowercase with hyphens only"] }
+      - { label: "Town", name: "town", widget: "string", required: false }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/place.html" }
+      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/places/{{url}}/" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "blog"
     label: "Blog Posts"
@@ -39,73 +127,215 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "postAuthor", widget: "string"}
-      - {label: "Publish Date", name: "postDate", widget: "datetime"}
-      - {label: "Summary", name: "postSummary", widget: "text"}
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Image Caption", name: "imageCaption", widget: "string", required: false}
-      - {label: "Categories", name: "postCategories", widget: "list"}
-      - {label: "Tags", name: "postTags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Post Author", name: "postAuthor", widget: "string", default: "Andy Clarke" }
+      - { label: "Post Date", name: "postDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD" }
+      - { label: "Post Summary", name: "postSummary", widget: "text" }
+      - label: "Post Categories"
+        name: "postCategories"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "History", value: "History" }
+          - { label: "Film", value: "Film" }
+          - { label: "Mythology", value: "Mythology" }
+          - { label: "Welsh Culture", value: "Welsh Culture" }
+          - { label: "Production", value: "Production" }
+          - { label: "Behind the Scenes", value: "Behind the Scenes" }
+          - { label: "Cast & Crew", value: "Cast & Crew" }
+          - { label: "Locations", value: "Locations" }
+        required: false
+      - label: "Post Tags"
+        name: "postTags"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "History", value: "History" }
+          - { label: "Arthurian", value: "Arthurian" }
+          - { label: "Excalibur", value: "Excalibur" }
+          - { label: "Wales", value: "Wales" }
+          - { label: "Legend", value: "Legend" }
+          - { label: "Symbolism", value: "Symbolism" }
+          - { label: "Film Making", value: "Film Making" }
+          - { label: "Celtic", value: "Celtic" }
+        required: false
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "stories"
+    label: "Stories"
+    folder: "src/stories"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "Andy Clarke" }
+      - { label: "Author Location", name: "authorLocation", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD" }
+      - label: "Place"
+        name: "place"
+        widget: "relation"
+        collection: "places"
+        search_fields: ["title"]
+        value_field: "url"
+        display_fields: ["title"]
+        required: false
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        fields:
+          - { label: "Image", name: "image", widget: "image" }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Experience", value: "experience" }
+          - { label: "Night Visit", value: "night-visit" }
+          - { label: "Solstice", value: "solstice" }
+          - { label: "Archaeology", value: "archaeology" }
+          - { label: "History", value: "history" }
+          - { label: "Personal", value: "personal" }
+          - { label: "Adventure", value: "adventure" }
+          - { label: "Research", value: "research" }
+        required: false
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/story.html" }
+      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/stories/{{slug}}/" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "team"
+    label: "Team Members"
+    folder: "src/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Order", name: "order", widget: "number", value_type: "int", default: 999 }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "URL", name: "url", widget: "string", required: false, hint: "Optional: Personal website or portfolio link" }
+      - { label: "Profile Image", name: "image", widget: "image" }
+      - { label: "Background Icon", name: "imageBg", widget: "string", required: false, hint: "Optional: Icon filename (e.g., icon-monster-2.svg)" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Title (Auto-generated)", name: "title", widget: "hidden", default: "{{name}}" }
 
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Privacy Policy"
-        name: "privacy"
-        file: "src/privacy.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/privacy/"}
-          - {label: "Body", name: "body", widget: "markdown"}
-
-      - label: "Our Team"
-        name: "team"
-        file: "src/team.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/team.html"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/team/"}
-          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
-
-      - label: "Photo Gallery"
-        name: "photos"
-        file: "src/photos.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/photos.html"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/photos/"}
-          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
-
-      - label: "About the Project"
+      - label: "About Page"
         name: "about"
         file: "src/about.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/about.html"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/about.html" }
+          - { label: "Meta Description", name: "metaDesc", widget: "string", required: false }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - { label: "Title", name: "title", widget: "string", default: "The film" }
+          - { label: "Main Content", name: "main", widget: "markdown" }
+          - { label: "Pull Quote", name: "pullQuote", widget: "markdown", required: false }
+          - { label: "Advertising", name: "advertising", widget: "markdown", required: false }
+          - { label: "Sponsorships", name: "sponsorships", widget: "markdown", required: false }
+          - { label: "Benefit 1", name: "benefits1", widget: "markdown", required: false }
+          - { label: "Benefit 2", name: "benefits2", widget: "markdown", required: false }
+          - { label: "Benefit 3", name: "benefits3", widget: "markdown", required: false }
+          - { label: "Bio Headline", name: "bioHeadline", widget: "string", default: "Meet the crew" }
+          - { label: "Freeman Bio", name: "freemanBio", widget: "markdown", required: false }
+          - { label: "Freeman Role", name: "freemanRole", widget: "string", default: "Writer and director" }
+          - { label: "Funding", name: "funding", widget: "markdown", required: false }
 
-    # Main content sections
-          - {label: "Lede", name: "lede", widget: "markdown", required: false}
-          - {label: "Main Content", name: "main", widget: "markdown", required: false}
-          - {label: "Pull Quote", name: "pullQuote", widget: "markdown", required: false}
-          - {label: "Advertising", name: "advertising", widget: "markdown", required: false}
-          - {label: "Sponsorships", name: "sponsorships", widget: "markdown", required: false}
+      - label: "Contribute Page"
+        name: "contribute"
+        file: "src/contribute.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Contribute to Mythic Wales" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/general.html" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/contribute/" }
+          - { label: "Lede", name: "lede", widget: "text" }
+          - { label: "Aside Content", name: "aside", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-    # Benefits sections
-          - {label: "Benefit 1", name: "benefits1", widget: "markdown", required: false}
-          - {label: "Benefit 2", name: "benefits2", widget: "markdown", required: false}
-          - {label: "Benefit 3", name: "benefits3", widget: "markdown", required: false}
+      - label: "Criw Page"
+        name: "criw"
+        file: "src/criw.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Join the Criw" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/criw/" }
+          - { label: "Aside Content", name: "aside", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-    # Team/bio section
-          - {label: "Bio Headline", name: "bioHeadline", widget: "string", required: false}
-          - {label: "Freeman Bio", name: "freemanBio", widget: "markdown", required: false}
-          - {label: "Freeman Role", name: "freemanRole", widget: "string", required: false}
+      - label: "FAQs Page"
+        name: "faqs"
+        file: "src/faqs.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Frequently asked questions" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/faqs/" }
+          - { label: "Aside Content", name: "aside", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
 
-    # Funding section
-          - {label: "Funding", name: "funding", widget: "markdown", required: false}
+      - label: "Photo Gallery Page"
+        name: "photos"
+        file: "src/photos.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Photo gallery" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/photos.html" }
+          - { label: "Aside Content", name: "aside", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      - label: "Home Page"
+        name: "home"
+        file: "src/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/home.html" }
+          - { label: "Meta Description", name: "metaDesc", widget: "string", required: false }
+          - { label: "Title", name: "title", widget: "string", default: "Excalibur film" }
+          - { label: "Main Content", name: "main", widget: "markdown" }
+          - { label: "Aside 1", name: "aside1", widget: "markdown", required: false }
+          - { label: "Aside 2", name: "aside2", widget: "markdown", required: false }
+          - { label: "Aside 3", name: "aside3", widget: "markdown", required: false }
+
+      - label: "Investors Page"
+        name: "invest"
+        file: "src/invest.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Invest in Excalibur" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/invest/" }
+          - { label: "Aside Content", name: "aside", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Mythic Wales Page"
+        name: "mythic-wales"
+        file: "src/mythic-wales.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/mythic-wales.html" }
+          - { label: "Meta Description", name: "metaDesc", widget: "string", required: false }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/mythic-wales/" }
+          - { label: "Title", name: "title", widget: "string", default: "Mythic Wales" }
+          - { label: "Lede", name: "lede", widget: "markdown" }
+          - { label: "Main Content", name: "main", widget: "markdown" }
+          - { label: "Pull Quote", name: "pullQuote", widget: "markdown", required: false }
+
+      - label: "Partners Page"
+        name: "partners"
+        file: "src/partners.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Excalibur Alliance" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/partners/" }
+          - { label: "Aside Content", name: "aside", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Privacy Policy Page"
+        name: "privacy"
+        file: "src/privacy.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html" }
+          - { label: "Title", name: "title", widget: "string", default: "Privacy policy" }
+          - { label: "Display Title", name: "displayTitle", widget: "string", default: "Privacy policy" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/privacy/" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+
+

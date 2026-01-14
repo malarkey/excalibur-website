@@ -1,13 +1,16 @@
 <style>
 .lightning-group {
 opacity: 0;
-animation: lightning-sequence 4s ease-in-out forwards; }
+animation: lightning-sequence 4s ease-in-out forwards;
+}
 
 .logo-lightning-blur {
-animation: blur-pulse 4s ease-in-out forwards; }
+animation: blur-pulse 4s ease-in-out forwards;
+}
 
 .logo-lightning {
-animation: core-pulse 4s ease-in-out forwards; }
+animation: core-pulse 4s ease-in-out forwards;
+}
 
 @keyframes lightning-sequence {
 0% { opacity: 0; }
@@ -17,48 +20,50 @@ animation: core-pulse 4s ease-in-out forwards; }
 20% { opacity: 0.3; }
 25% { opacity: 1; }
 50% { opacity: 1; }
-80% { opacity: 0.5; }
-100% { opacity: 0; }
+80% { opacity: 0.8; }
+100% { opacity: 1; } /* Changed from 0 to 1 */
 }
 
 @keyframes blur-pulse {
 0%, 5%, 15%, 25%, 50% {
 filter: url(#lightning-blur);
-stroke-width: 15; }
-
+stroke-width: 15;
+}
 10%, 20% {
 filter: url(#lightning-blur);
-stroke-width: 12; }
-
+stroke-width: 12;
+}
 80% {
 filter: url(#lightning-blur);
 stroke-width: 10;
-opacity: 0.7; }
-
+opacity: 0.8; /* Slightly increased from 0.7 */
+}
 100% {
 filter: url(#lightning-blur);
 stroke-width: 8;
-opacity: 0; }
+opacity: 1; /* Changed from 0 to 1 */
+}
 }
 
 @keyframes core-pulse {
 0%, 5%, 15%, 25%, 50% {
 stroke-width: 3;
-stroke: #fbfce3; }
-
+stroke: #fbfce3;
+}
 10%, 20% {
 stroke-width: 2.5;
-stroke: #f8f9d7; }
-
+stroke: #f8f9d7;
+}
 80% {
 stroke-width: 2;
 stroke: #f9fae0;
-opacity: 0.8; }
-
+opacity: 0.8;
+}
 100% {
 stroke-width: 1.5;
 stroke: #f9fae0;
-opacity: 0; }
+opacity: 1; /* Changed from 0 to 1 */
+}
 }
 </style>
 
