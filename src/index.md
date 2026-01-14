@@ -5,7 +5,7 @@ title: Excalibur film
 main: >-
   <p data-size="s">Excalibur is a major fantasy feature film based in the world
   of Welsh mythology. It is being created in Wales with the help of the Welsh
-  nation. Join us! <a href="/contact">join us</a>.</p>
+  nation. <a href="/contact">Join us!</a>.</p>
 
 
   <p style="margin-block-start:var(--spacing-l);"><a href="/about/" class="btn" data-variant="s">Learn more</a> &nbsp;or&nbsp; <a href="#" class="btn" data-variant="s">Get our newsletter</a></p>
