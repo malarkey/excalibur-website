@@ -749,7 +749,7 @@ label span {
 font-size: var(--font-size-s) !important; }
 
 /* Form input styles */
-:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea) {
+[type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea {
 -webkit-appearance: none;
 appearance: none;
 background-color: var(--color-input-background);
@@ -769,9 +769,10 @@ scale: 1;
 transition: all var(--animate-duration-faster) var(--animate-function); }
 
 /* Form input states */
-:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea):hover {
+[type="email"]:hover, [type="password"]:hover, [type="search"]:hover, [type="tel"]:hover, [type="text"]:hover, [type="url"]:hover, textarea:hover {
 border-color: var(--color-border); }
-:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea):focus {
+
+[type="email"]:focus, [type="password"]:focus, [type="search"]:focus, [type="tel"]:focus, [type="text"]:focus, [type="url"]:focus, textarea:focus {
 accent-color: var(--color-accent);
 background-color: var(--color-input-background);
 border-color: var(--color-accent);

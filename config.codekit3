@@ -1541,7 +1541,7 @@
     },
     "\/dist\/images\/tmp-advert-3.webp" : {
       "ft" : 8388608,
-      "iS" : 17478,
+      "iS" : 13614,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-3.webp",
       "oF" : 0,
@@ -1552,7 +1552,7 @@
     },
     "\/dist\/images\/tmp-advert-4.webp" : {
       "ft" : 8388608,
-      "iS" : 14742,
+      "iS" : 8746,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-advert-4.webp",
       "oF" : 0,
@@ -3357,6 +3357,14 @@
       "oAP" : "\/src\/_includes\/partials\/meta.html",
       "oF" : 0
     },
+    "\/src\/_includes\/partials\/newsletter.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/newsletter.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/partials\/pagination.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4497,6 +4505,14 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/src\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/index.html",
+      "oF" : 0
     },
     "\/src\/index.md" : {
       "cB" : 0,

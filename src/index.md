@@ -8,7 +8,8 @@ main: >-
   nation. <a href="/contact">Join us!</a>.</p>
 
 
-  <p style="margin-block-start:var(--spacing-l);"><a href="#" class="btn" data-variant="s">Get our newsletter</a></p>
+  <p style="margin-block-start:var(--spacing-l);"><a href="#newsletter" class="btn" data-variant="s">Subscribe to our newsletter</a></p>
+
 aside1: >
   <h2 data-size="2xl">Watch the teaser</h2>
 
@@ -17,6 +18,7 @@ aside1: >
 
 
   <p data-size="s">You can follow behind-the-scenes updates as sets, costumes, and effects are crafted by world-class talent from Cymru and beyond. &#8212; <a href="/about/">Learn more</a></p>
+
 aside2: ""
 aside3: ""
 ---
